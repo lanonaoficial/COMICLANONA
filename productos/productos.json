@@ -1,0 +1,16 @@
+[
+  {
+    "id": "AN-2",
+    "nombre": "Jujutsu Kaisen Vol. 25",
+    "precio": 28000,
+    "imagen": "productos/berserk-tomo-1/black clover tomo 1.jpeg, productos/berserk-tomo-1/jujutsu kaisen tomo 25.jpeg",
+    "descripcion": "hola que gace"
+  },
+  {
+    "id": "AN-3",
+    "nombre": "Jujutsu Kaisen Vol. 26",
+    "precio": 28000,
+    "imagen": "productos/berserk-tomo-1/images.jpeg",
+    "descripcion": "dsadsas"
+  }
+]
