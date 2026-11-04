@@ -1,6 +1,7 @@
 [
   {
     "id": "ANI-138",
+    "categoria": "Figura",
     "nombre": "Figura Monkey D. Luffy (Gear 5) - One Piece (Entrega Inmediata)",
     "precio": 160000,
     "imagen": "productos/berserk-tomo-1/20261103_182520_33_11zon.webp, productos/berserk-tomo-1/20261103_182532_34_11zon.webp, productos/berserk-tomo-1/luffy articurable.webp, productos/berserk-tomo-1/poses de luffy articurable.webp",
@@ -8,6 +9,7 @@
   },
   {
     "id": "ANI-139",
+    "categoria": "Figura",
     "nombre": " Figura Portgas D. Ace (Fire Fist) - One Piece (Entrega Inmediata)",
     "precio": 160000,
     "imagen": "productos/berserk-tomo-1/20261103_182345_30_11zon.webp, productos/berserk-tomo-1/20261103_182448_32_11zon.webp, productos/berserk-tomo-1/20261103_182412_31_11zon.webp, productos/berserk-tomo-1/Gemini_Generated_Image_hio8lrhio8lrhio8_11zon.webp",
@@ -15,6 +17,7 @@
   },
   {
     "id": "ANI-186",
+    "categoria": "Figura",
     "nombre": "\n🔥 Figura Vinsmoke Sanji (Diable Jambe) - One Piece (Entrega Inmediata)",
     "precio": 160000,
     "imagen": "productos/berserk-tomo-1/20261103_181934_26_11zon.webp, productos/berserk-tomo-1/20261103_181939_27_11zon.webp, productos/berserk-tomo-1/20261103_181943_28_11zon.webp, productos/berserk-tomo-1/20261103_182009_29_11zon.webp",
@@ -22,13 +25,15 @@
   },
   {
     "id": "ANI-198",
-    "nombre": "ONE PIECE FIGURITAS",
+    "categoria": "Figura",
+    "nombre": "❤️ Figura Boa Hancock - One Piece (Entrega Inmediata)",
     "precio": 29000,
     "imagen": "productos/berserk-tomo-1/20261028_121818_5_11zon.webp, productos/berserk-tomo-1/20261028_121924_6_11zon.webp",
     "descripcion": "❤️ Figura Boa Hancock - One Piece (Entrega Inmediata)\n¡Añade a la Emperatriz Pirata a tu colección con esta increíble figura! Con su icónica pose de desprecio y su característico abrigo de la Marine, es una pieza que se robará todas las miradas.   \nTamaño: Medida aproximada entre 12 cm y 20 cm.Detalles: \nExcelente acabado en su vestuario rojo y blanco con detalles dorados.   \n⚡ Disponibilidad: ¡Entrega inmediata! No esperes más para llevártela a casa."
   },
   {
     "id": "ANI-264",
+    "categoria": "Accesorios",
     "nombre": "BERSECK DELUXE EDITION TOMO#1",
     "precio": 180000,
     "imagen": "productos/berserk-tomo-1/20261026_133959_1_11zon.webp, productos/berserk-tomo-1/20261026_134035_2_11zon.webp, productos/berserk-tomo-1/20261026_134719_4_11zon.webp, productos/berserk-tomo-1/20261026_134541_3_11zon.webp",
@@ -36,41 +41,47 @@
   },
   {
     "id": "ANI-265",
+    "categoria": "Accesorios",
     "nombre": "Hot Wheels - Hoto Roto (Entrega Inmediata)",
-    "precio": 180000,
+    "precio": 18000,
     "imagen": "productos/berserk-tomo-1/20261028_124426_7_11zon.webp",
     "descripcion": "¡Un diseño agresivo y oscuro listo para acelerar en tu colección!   \nEstado: 🌟 Excelente, nuevo en su empaque original.\nDisponibilidad: ¡Entrega inmediata! No te quedes sin esta pieza de colección.   \nTodal mente original"
   },
   {
     "id": "ANI-266",
+    "categoria": "Accesorios",
     "nombre": "Hot Wheels - Toyota Prius Custom (Entrega Inmediata)",
-    "precio": 180000,
+    "precio": 18000,
     "imagen": "productos/berserk-tomo-1/20261028_133329_8_11zon.webp",
     "descripcion": "¡La versión más estilizada, deportiva y personalizada del famoso híbrido japonés!\n\n* **Estado:** 🌟 Excelente, blíster impecable.\n* **Disponibilidad:** **¡Entrega inmediata!** Ideal para los amantes del tuning y los JDM."
   },
   {
     "id": "ANI-267",
+    "categoria": "Accesorios",
     "nombre": "Hot Wheels - Gotta Go (Entrega Inmediata)*",
-    "precio": 180000,
+    "precio": 18000,
     "imagen": "productos/berserk-tomo-1/20261028_133414_9_11zon.webp",
     "descripcion": "Un clásico divertido con un diseño único, llamas clásicas y listo para la pista.\n* **Estado:** 🌟 Excelente, totalmente nuevo.\n* **Disponibilidad:** **¡Entrega inmediata!** \n¡Súmate a la velocidad!"
   },
   {
     "id": "ANI-268",
+    "categoria": "Accesorios",
     "nombre": "Hot Wheels - Ford F-150 Lightning Supertruck (Entrega Inmediata)",
-    "precio": 180000,
+    "precio": 18000,
     "imagen": "productos/berserk-tomo-1/20261028_133546_10_11zon.webp",
     "descripcion": "Pura potencia eléctrica y aerodinámica extrema llevada a las pistas.\n* **Estado:** 🌟 Excelente estado de conservación en su empaque.\n* **Disponibilidad:*¡Entrega inmediata!\nAñade esta bestia aerodinámica a tu repisa."
   },
   {
     "id": "ANI-269",
+    "categoria": "Accesorios",
     "nombre": "Hot Wheels - Bugatti Bolide (Entrega Inmediata)",
-    "precio": 180000,
+    "precio": 18000,
     "imagen": "productos/berserk-tomo-1/20261028_134011_11_11zon.webp",
     "descripcion": "La elegancia y velocidad inalcanzable de hiperdeportivo hechas a escala.\n* **Estado:** 🌟 Excelente, tarjeta y burbuja en perfecto estado.\n* **Disponibilidad:** **¡Entrega inmediata!** \nUna joya que no puede faltar con los gemelos de velocidad."
   },
   {
     "id": "ANI-270",
+    "categoria": "Accesorios",
     "nombre": "🛞Hot Wheels - Carrito Clásico Translúcido (Entrega Inmediata)",
     "precio": 18000,
     "imagen": "productos/berserk-tomo-1/20261028_134855_13_11zon.webp, productos/berserk-tomo-1/20261028_134525_12_11zon.webp",
@@ -78,6 +89,7 @@
   },
   {
     "id": "ANI-271",
+    "categoria": "Accesorios",
     "nombre": "Hot Wheels '67 Lotus Type 49 (Entrega Inmediata)",
     "precio": 22000,
     "imagen": "productos/berserk-tomo-1/20261028_135107_15_11zon.webp, productos/berserk-tomo-1/20261028_135048_14_11zon.webp, productos/berserk-tomo-1/20261028_135122_16_11zon.webp",
@@ -85,6 +97,7 @@
   },
   {
     "id": "ANI-272",
+    "categoria": "Accesorios",
     "nombre": "Hot Wheels - Van Temática de Rick y Morty (Entrega Inmediata)",
     "precio": 90000,
     "imagen": "productos/berserk-tomo-1/20261028_135255_18_11zon.webp, productos/berserk-tomo-1/20261028_135251_17_11zon.webp, productos/berserk-tomo-1/20261028_135301_19_11zon.webp,",
@@ -92,6 +105,7 @@
   },
   {
     "id": "ANI-273",
+    "categoria": "Accesorios",
     "nombre": "Hot Wheels Layin' Lowrider (Entrega Inmediata)",
     "precio": 20000,
     "imagen": "productos/berserk-tomo-1/20261028_140840_20_11zon.webp, productos/berserk-tomo-1/20261028_140945_21_11zon.webp, productos/berserk-tomo-1/20261028_141047_22_11zon.webp",
@@ -99,6 +113,7 @@
   },
   {
     "id": "ANI-274",
+    "categoria": "Accesorios",
     "nombre": "Hot Wheels Birthday Burner  (Entrega Inmediata)",
     "precio": 18000,
     "imagen": "productos/berserk-tomo-1/20261028_141126_23_11zon.webp, productos/berserk-tomo-1/20261028_141200_25_11zon.webp, productos/berserk-tomo-1/20261028_141154_24_11zon.webp",
