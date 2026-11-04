@@ -590,7 +590,7 @@
 
         .description-text {
             display: -webkit-box;
-            -webkit-line-clamp: 3; /* Recorta a 3 líneas por defecto */
+            -webkit-line-clamp: 3;
             -webkit-box-orient: vertical;
             overflow: hidden;
             transition: all 0.3s ease;
@@ -1156,7 +1156,6 @@
             }
         }
 
-        // FUNCIÓN PARA EXPANDIR / RECORTAR TEXTO Y CAMBIAR TAMAÑO DE IMAGEN
         function toggleDescription() {
             const desc = document.getElementById('modalDescription');
             const btn = document.getElementById('toggleDescBtn');
@@ -1166,10 +1165,10 @@
             
             if (desc.classList.contains('expanded')) {
                 btn.innerText = "Recortar texto";
-                imgBox.style.height = "150px"; // Reduce un poco la imagen al mostrar todo el texto
+                imgBox.style.height = "150px";
             } else {
                 btn.innerText = "Mostrar texto completo";
-                imgBox.style.height = "230px"; // Vuelve al tamaño grande
+                imgBox.style.height = "230px";
             }
         }
 
@@ -1191,7 +1190,6 @@
             document.getElementById('modalTitle').innerText = p.nombre;
             document.getElementById('modalPrice').innerText = `$${p.precio.toLocaleString()}`;
             
-            // Restablecer texto a recortado
             const descElem = document.getElementById('modalDescription');
             descElem.classList.remove('expanded');
             document.getElementById('toggleDescBtn').innerText = "Mostrar texto completo";
@@ -1260,7 +1258,6 @@
             if (modalCurrentImgIndex < 0) modalCurrentImgIndex = modalImagesList.length - 1;
             if (modalCurrentImgIndex >= modalImagesList.length) modalCurrentImgIndex = 0;
             
-            // Actualiza tanto el zoom como el modal de atrás para que vayan sincronizados
             const zoomImg = document.getElementById('zoomImg');
             zoomImg.src = modalImagesList[modalCurrentImgIndex];
             updateModalImageDisplay();
@@ -1352,7 +1349,7 @@
             });
         }
 
-        // SISTEMA DE FILTRADO INTELIGENTE (RESPETA LA CATEGORÍA DEL EXCEL)
+        // SISTEMA DE FILTRADO ESTRICTO (RESPETA 100% LA CATEGORÍA DEL EXCEL)
         function filterCategory(cat) {
             currentCategory = cat;
             document.querySelectorAll('.cat-btn').forEach(btn => btn.classList.remove('active'));
@@ -1362,42 +1359,10 @@
                 renderProducts(products);
             } else {
                 renderProducts(products.filter(p => {
-                    let productoCat = (p.categoria || p.cat || "").toLowerCase();
-                    let nombreLower = (p.nombre || "").toLowerCase();
-                    let idLower = (p.id || "").toLowerCase();
+                    let productoCat = (p.categoria || p.cat || "").toLowerCase().trim();
+                    let targetCat = cat.toLowerCase().trim();
 
-                    // Si el Excel tiene la categoría exacta escrita, se respeta de inmediato
-                    if (productoCat.includes(cat.toLowerCase())) {
-                        return true;
-                    }
-
-                    // Respaldo por palabras clave si la categoría del excel está vacía o genérica
-                    if (cat === 'Manga') {
-                        return idLower.startsWith('an') && !nombreLower.includes('camiseta') && !nombreLower.includes('figura') && !nombreLower.includes('hot wheels');
-                    }
-                    if (cat === 'Figura') {
-                        return idLower.startsWith('ani') || nombreLower.includes('figura') || nombreLower.includes('funko') || nombreLower.includes('hot wheels');
-                    }
-                    if (cat === 'TCG') {
-                        return idLower.startsWith('tcg') || nombreLower.includes('carta') || nombreLower.includes('booster');
-                    }
-                    if (cat === 'Juegos') {
-                        return idLower.startsWith('jue') || nombreLower.includes('juego');
-                    }
-                    if (cat === 'Accesorios') {
-                        return idLower.startsWith('acc') || nombreLower.includes('llavero') || nombreLower.includes('pin') || nombreLower.includes('pocillo');
-                    }
-                    if (cat === 'Personalizados') {
-                        return idLower.startsWith('per') || nombreLower.includes('personalizado');
-                    }
-                    if (cat === 'Poster') {
-                        return nombreLower.includes('poster') || nombreLower.includes('póster');
-                    }
-                    if (cat === 'Ropa') {
-                        return idLower.startsWith('rop') || nombreLower.includes('camiseta') || nombreLower.includes('hoodie');
-                    }
-
-                    return false;
+                    return productoCat === targetCat;
                 }));
             }
         }
