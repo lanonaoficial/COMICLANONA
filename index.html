@@ -946,7 +946,7 @@
 
     <script>
         let products = [];
-        let displayedProducts = []; // Guarda la lista actual filtrada para que el índice coincida perfectamente
+        let displayedProducts = [];
         let cart = [];
         let currentCategory = 'todos';
         let paymentMethod = 'Nequi';
@@ -1026,7 +1026,6 @@
             }
         }
 
-        // AQUÍ ESTÁ LA CORRECCIÓN: Usa el índice de la lista filtrada actual (displayedProducts)
         function openProductModal(index) {
             const p = displayedProducts[index];
             if (!p) return;
@@ -1142,7 +1141,7 @@
         }
 
         function renderProducts(filteredList) {
-            displayedProducts = filteredList; // Guardamos la lista actual en pantalla
+            displayedProducts = filteredList;
             const grid = document.getElementById('productsGrid');
             grid.innerHTML = '';
 
@@ -1205,7 +1204,6 @@
             });
         }
 
-        // SISTEMA DE FILTRADO ESTRICTO
         function filterCategory(cat) {
             currentCategory = cat;
             document.querySelectorAll('.cat-btn').forEach(btn => btn.classList.remove('active'));
@@ -1336,6 +1334,7 @@
             totalAmount.innerText = Math.round(total).toLocaleString();
         }
 
+        // FUNCIÓN CORREGIDA: Incluye nombre completo, recargos, pago, entrega y totales detallados
         function sendWhatsAppOrder() {
             if (cart.length === 0) {
                 alert('Tu carrito está vacío.');
@@ -1353,29 +1352,36 @@
                 return;
             }
 
-            let message = `¡Hola COMICLANONA! 🎁🎄 Quiero realizar el siguiente pedido:%0A%0A`;
+            let message = `🧾 *FACTURA DE LA NONA :D* 🧾%0A`;
+            message += `¡Hola COMICLANONA! 🎁🎄 Quiero realizar el siguiente pedido:%0A%0A`;
+            
             cart.forEach(i => {
-                message += `• ${i.qty}x ${i.name} ($${(i.price * i.qty).toLocaleString()})%0A`;
+                message += `• ${i.qty}x *${i.name}* — $${(i.price * i.qty).toLocaleString()}%0A`;
             });
+            
             message += `%0A----------------------------%0A`;
-            message += `📦 *Artículos:* ${totalItems}%0A`;
+            message += `📦 *Total Artículos:* ${totalItems}%0A`;
+            message += `💵 *Subtotal:* $${subtotal.toLocaleString()}%0A`;
             message += `💳 *Método de Pago:* ${paymentMethod}%0A`;
+            
             if (paymentMethod === 'Sistecrédito') {
                 message += `📈 *Recargo Sistecrédito (9%):* +$${Math.round(feeSistecredito).toLocaleString()}%0A`;
             }
+            
             message += `🚚 *Método de Entrega:* ${deliveryMethod}%0A`;
             
             if (deliveryMethod === 'Envío a domicilio') {
-                message += `📍 *Dirección de Envío:* ${encodeURIComponent(addressText)}%0A`;
+                message += `📍 *Dirección de Envío:* ${addressText}%0A`;
             }
 
-            message += `💰 *TOTAL PRODUCTOS:* *$${total.toLocaleString()}*%0A`;
+            message += `----------------------------%0A`;
+            message += `💰 *TOTAL A PAGAR:* *$${total.toLocaleString()}*%0A`;
             
             if (deliveryMethod === 'Envío a domicilio') {
                 message += `*(El costo del envío se coordinará por este medio)*%0A`;
             }
 
-            message += `%0A¡Quedo atento(a)! ✨`;
+            message += `%0A¡Quedo atenta! ✨`;
 
             window.open(`https://wa.me/573002506144?text=${message}`, '_blank');
         }
