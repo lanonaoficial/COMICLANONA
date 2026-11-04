@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>COMICLANONA - Tienda Anime, TCG y Coleccionables</title>
+    <link rel="icon" type="image/webp" href="encabezado/logo_nona.webp">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <!-- FontAwesome Icons -->
@@ -83,6 +84,7 @@
             top: 0;
             z-index: 1000;
             padding: 4px 0;
+            overflow: hidden;
         }
 
         .header-container {
@@ -94,6 +96,8 @@
             justify-content: space-between;
             gap: 12px;
             flex-wrap: wrap;
+            position: relative;
+            z-index: 1011;
         }
 
         .logo-container {
@@ -107,6 +111,33 @@
         .logo-img {
             height: 65px;
             border-radius: 0px;
+        }
+
+        /* SANTA CLAUS VOLANDO EN EL ENCABEZADO */
+        .santa-animation-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 1010;
+            overflow: hidden;
+        }
+
+        .santa-img {
+            position: absolute;
+            top: 5px;
+            left: 100%;
+            height: 55px;
+            width: auto;
+            transform: scaleX(-1);
+            animation: volarSanta 14s linear infinite;
+        }
+
+        @keyframes volarSanta {
+            0% { left: 105%; }
+            100% { left: -15%; }
         }
 
         /* BUSCADOR */
@@ -204,7 +235,7 @@
             gap: 20px;
         }
 
-        /* BANNER PANORÁMICO RESPONSIVO */
+        /* BANNER PANORÁMICO */
         .banner-carousel-section {
             background: #1a1a1a;
             border-radius: var(--border-radius);
@@ -274,7 +305,7 @@
             color: var(--dark);
         }
 
-        /* GRILLA DE PRODUCTOS RESPONSIVA */
+        /* GRILLA DE PRODUCTOS */
         .products-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -383,7 +414,7 @@
             gap: 6px;
         }
 
-        /* ===== MODAL DE PRODUCTO DETALLADO CON DESCRIPCIÓN Y ZOOM ===== */
+        /* ===== MODAL DE PRODUCTO DETALLADO ===== */
         .product-modal-overlay {
             position: fixed;
             top: 0;
@@ -465,6 +496,7 @@
             position: relative;
             overflow: hidden;
             cursor: pointer;
+            transition: height 0.3s ease;
         }
 
         .zoom-btn-overlay {
@@ -543,7 +575,33 @@
             margin-bottom: 4px;
         }
 
-        /* ===== MODAL DE ZOOM FULLSCREEN ===== */
+        /* BOTÓN TOGGLE TEXTO */
+        .toggle-desc-btn {
+            background: none;
+            border: none;
+            color: var(--primary);
+            font-size: 11px;
+            font-weight: 700;
+            cursor: pointer;
+            margin-top: 4px;
+            display: inline-block;
+            text-decoration: underline;
+        }
+
+        .description-text {
+            display: -webkit-box;
+            -webkit-line-clamp: 3; /* Recorta a 3 líneas por defecto */
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .description-text.expanded {
+            display: block;
+            -webkit-line-clamp: unset;
+        }
+
+        /* ===== MODAL DE ZOOM FULLSCREEN CON FLECHAS LATERALES ===== */
         .zoom-modal-overlay {
             position: fixed;
             top: 0;
@@ -567,8 +625,8 @@
         }
 
         .zoom-modal-img {
-            max-width: 95vw;
-            max-height: 90vh;
+            max-width: 85vw;
+            max-height: 85vh;
             object-fit: contain;
             border-radius: 8px;
             box-shadow: 0 0 25px rgba(255, 204, 0, 0.4);
@@ -592,7 +650,33 @@
             z-index: 12010;
         }
 
-        /* BOTÓN FLOTANTE EN LA ESQUINITA DERECHA */
+        .zoom-nav-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(255, 255, 255, 0.2);
+            color: #fff;
+            border: 2px solid var(--secondary);
+            border-radius: 50%;
+            width: 45px;
+            height: 45px;
+            font-size: 20px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 12010;
+            transition: background 0.2s;
+        }
+
+        .zoom-nav-btn:hover {
+            background: var(--primary);
+        }
+
+        .zoom-nav-btn.prev { left: 20px; }
+        .zoom-nav-btn.next { right: 20px; }
+
+        /* BOTÓN FLOTANTE CARRITO */
         .floating-cart-btn {
             position: fixed;
             bottom: 20px;
@@ -737,7 +821,6 @@
             font-size: 12px;
         }
 
-        /* ESTILOS PARA LAS TARJETAS / LOGOS DE PAGO Y ENTREGA */
         .payment-options, .delivery-options {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
@@ -809,82 +892,27 @@
             font-size: 11px;
         }
 
-        /* ===== AJUSTES ESPECIALES PARA MÓVILES ===== */
         @media (max-width: 768px) {
-            .header-container {
-                gap: 8px;
-            }
-
-            .logo-img {
-                height: 42px;
-            }
-
-            .search-box {
-                order: 3;
-                width: 100%;
-                max-width: 100%;
-                margin-top: 4px;
-            }
-
-            .nav-menu {
-                display: none;
-            }
-
-            .badge-slogan {
-                font-size: 9px;
-                padding: 4px 8px;
-            }
-
-            .banner-carousel-section {
-                height: 160px;
-            }
-
-            .products-grid {
-                grid-template-columns: repeat(2, 1fr);
-                gap: 10px;
-            }
-
-            .product-card {
-                padding: 10px;
-            }
-
-            .product-img-box {
-                height: 120px;
-            }
-
-            .product-details h4 {
-                font-size: 12px;
-            }
-
-            .product-price {
-                font-size: 15px;
-            }
-
-            .cart-sidebar {
-                width: calc(100vw - 30px);
-                right: -100vw;
-            }
-
-            .cart-sidebar.is-open {
-                right: 15px;
-            }
-
-            .product-modal-card {
-                padding: 25px 15px 15px 15px;
-            }
-
-            .modal-img-box {
-                height: 180px;
-            }
+            .header-container { gap: 8px; }
+            .logo-img { height: 42px; }
+            .search-box { order: 3; width: 100%; max-width: 100%; margin-top: 4px; }
+            .nav-menu { display: none; }
+            .badge-slogan { font-size: 9px; padding: 4px 8px; }
+            .banner-carousel-section { height: 160px; }
+            .products-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+            .product-card { padding: 10px; }
+            .product-img-box { height: 120px; }
+            .cart-sidebar { width: calc(100vw - 30px); right: -100vw; }
+            .cart-sidebar.is-open { right: 15px; }
+            .product-modal-card { padding: 25px 15px 15px 15px; }
+            .modal-img-box { height: 180px; }
         }
     </style>
 </head>
 <body>
 
-    <!-- CANVAS DE PARTICULAS Y NIEVE (ROJO, VERDE Y DORADO) -->
     <canvas id="snowCanvas"></canvas>
 
-    <!-- ENCABEZADO -->
     <header>
         <div class="christmas-lights">
             <div class="light-bulb"></div><div class="light-bulb"></div>
@@ -893,6 +921,10 @@
             <div class="light-bulb"></div><div class="light-bulb"></div>
             <div class="light-bulb"></div><div class="light-bulb"></div>
             <div class="light-bulb"></div><div class="light-bulb"></div>
+        </div>
+
+        <div class="santa-animation-container">
+            <img src="assets/santa.png" alt="Santa Claus" class="santa-img" onerror="this.style.display='none'">
         </div>
 
         <div class="header-container">
@@ -918,16 +950,13 @@
         </div>
     </header>
 
-    <!-- CONTENIDO PRINCIPAL -->
     <main class="main-content">
-        <!-- CARRUSEL DE BANNERS -->
         <div class="banner-carousel-section" id="bannerSection">
             <div class="banner-track" id="bannerTrack"></div>
             <button onclick="moveBanner(-1)" style="position: absolute; left: 8px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.6); color: #fff; border: none; border-radius: 50%; width: 28px; height: 28px; cursor: pointer; z-index: 10;">‹</button>
             <button onclick="moveBanner(1)" style="position: absolute; right: 8px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.6); color: #fff; border: none; border-radius: 50%; width: 28px; height: 28px; cursor: pointer; z-index: 10;">›</button>
         </div>
 
-        <!-- FILTROS -->
         <div class="categories-filter" id="categoryFilter">
             <button class="cat-btn active" onclick="filterCategory('todos')"><i class="fa-solid fa-border-all"></i> Todos</button>
             <button class="cat-btn" onclick="filterCategory('Manga')"><i class="fa-solid fa-book-open"></i> Manga</button>
@@ -940,7 +969,6 @@
             <button class="cat-btn" onclick="filterCategory('Ropa')"><i class="fa-solid fa-shirt"></i> Ropa</button>
         </div>
 
-        <!-- CATÁLOGO -->
         <div>
             <div class="catalog-header">
                 <h3>Explora Nuestro Catálogo 🎁</h3>
@@ -950,7 +978,7 @@
         </div>
     </main>
 
-    <!-- MODAL DE PRODUCTO DETALLADO CON DESCRIPCIÓN Y ZOOM -->
+    <!-- MODAL DE PRODUCTO DETALLADO CON TEXTO EXPANDIBLE -->
     <div class="product-modal-overlay" id="productModal" onclick="closeProductModal(event)">
         <div class="product-modal-card" onclick="event.stopPropagation()">
             <button class="close-modal-btn" onclick="closeProductModal()">✕</button>
@@ -968,7 +996,8 @@
                 
                 <div class="modal-description-box">
                     <h5><i class="fa-solid fa-circle-info" style="color: var(--primary);"></i> Descripción del Producto:</h5>
-                    <p id="modalDescription">Cargando descripción...</p>
+                    <p class="description-text" id="modalDescription">Cargando descripción...</p>
+                    <button class="toggle-desc-btn" id="toggleDescBtn" onclick="toggleDescription()">Mostrar texto completo</button>
                 </div>
 
                 <button class="btn-add-cart" id="modalAddBtn" style="padding: 10px; font-size: 14px; margin-top: 10px;">
@@ -978,18 +1007,18 @@
         </div>
     </div>
 
-    <!-- MODAL DE ZOOM FULLSCREEN -->
+    <!-- MODAL DE ZOOM FULLSCREEN CON FLECHAS LATERALES -->
     <div class="zoom-modal-overlay" id="zoomModal" onclick="closeZoomModal()">
         <button class="close-zoom-btn" onclick="closeZoomModal()">✕</button>
+        <button class="zoom-nav-btn prev" onclick="event.stopPropagation(); moveZoomModalImage(-1)">‹</button>
         <img src="" id="zoomImg" class="zoom-modal-img" alt="Zoom Producto" onclick="event.stopPropagation()">
+        <button class="zoom-nav-btn next" onclick="event.stopPropagation(); moveZoomModalImage(1)">›</button>
     </div>
 
-    <!-- BOTÓN FLOTANTE EN LA ESQUINITA -->
     <button class="floating-cart-btn" onclick="toggleCart()">
         <i class="fa-solid fa-cart-shopping"></i> Mi Orden <span class="cart-badge" id="cartCount">0</span>
     </button>
 
-    <!-- PANEL LATERAL COMPACTO -->
     <aside class="cart-sidebar" id="cartSidebar">
         <div class="cart-sidebar-header">
             <h3><i class="fa-solid fa-receipt"></i> Mi Pedido 🎄</h3>
@@ -1007,8 +1036,6 @@
             </div>
 
             <div class="order-summary-section" style="border-top: 1px dashed #ddd; padding-top: 8px; display: flex; flex-direction: column; gap: 8px;">
-                
-                <!-- SELECCIÓN DE MÉTODO DE PAGO CON LOGOS -->
                 <div class="form-group-custom">
                     <label style="font-size: 11px; font-weight: 700;">Forma de Pago</label>
                     <div class="payment-options">
@@ -1023,7 +1050,6 @@
                     </div>
                 </div>
 
-                <!-- SELECCIÓN DE MÉTODO DE ENTREGA -->
                 <div class="form-group-custom">
                     <label style="font-size: 11px; font-weight: 700;">Método de Entrega</label>
                     <div class="delivery-options">
@@ -1032,7 +1058,6 @@
                     </div>
                 </div>
 
-                <!-- CAMPO DE DIRECCIÓN SI ESCOGE ENVÍO -->
                 <div class="form-group-custom" id="shippingAddressGroup" style="display: none;">
                     <label for="shippingAddress" style="font-size: 11px; font-weight: 700;">Dirección y Ciudad de Envío:</label>
                     <textarea id="shippingAddress" placeholder="Ej: Calle 5 # 10-20, Barrio San Carlos, Piedecuesta" style="width:100%; padding: 6px; border:1px solid #ccc; border-radius:6px; font-size:11px; resize: none; height: 50px;"></textarea>
@@ -1059,7 +1084,6 @@
         </div>
     </aside>
 
-    <!-- FOOTER -->
     <footer>
         <div class="footer-container">
             <div><i class="fa-brands fa-whatsapp"></i> 300 250 6144 | Piedecuesta, Santander, Colombia</div>
@@ -1067,7 +1091,6 @@
         </div>
     </footer>
 
-    <!-- JAVASCRIPT -->
     <script>
         let products = [];
         let cart = [];
@@ -1079,7 +1102,6 @@
         let modalImagesList = [];
         let modalCurrentImgIndex = 0;
 
-        // PARTICULAS DE COLORES (ROJO, VERDE Y DORADO)
         function initSnowEffect() {
             const canvas = document.getElementById('snowCanvas');
             const ctx = canvas.getContext('2d');
@@ -1134,18 +1156,28 @@
             }
         }
 
+        // FUNCIÓN PARA EXPANDIR / RECORTAR TEXTO Y CAMBIAR TAMAÑO DE IMAGEN
+        function toggleDescription() {
+            const desc = document.getElementById('modalDescription');
+            const btn = document.getElementById('toggleDescBtn');
+            const imgBox = document.getElementById('modalImg');
+
+            desc.classList.toggle('expanded');
+            
+            if (desc.classList.contains('expanded')) {
+                btn.innerText = "Recortar texto";
+                imgBox.style.height = "150px"; // Reduce un poco la imagen al mostrar todo el texto
+            } else {
+                btn.innerText = "Mostrar texto completo";
+                imgBox.style.height = "230px"; // Vuelve al tamaño grande
+            }
+        }
+
         function openProductModal(index) {
             const p = products[index];
             if (!p) return;
 
-            let cat = "Coleccionable";
-            if (p.id && p.id.startsWith('AN')) cat = "Manga / Anime";
-            else if (p.id && p.id.startsWith('VIT')) cat = "Vitrina / Snacks";
-            else if (p.id && p.id.startsWith('TCG')) cat = "TCG / Cartas";
-            else if (p.id && p.id.startsWith('IMP')) cat = "Papelería";
-            else if (p.id && p.id.startsWith('JUE')) cat = "Juegos / Diversión";
-            else if (p.id && p.id.startsWith('ACC')) cat = "Accesorios";
-            else if (p.id && p.id.startsWith('PER')) cat = "Personalizados";
+            let cat = p.categoria || p.cat || "Coleccionable";
 
             modalImagesList = [];
             if (p.imagen && !p.imagen.includes("Aquí va el link")) {
@@ -1159,8 +1191,14 @@
             document.getElementById('modalTitle').innerText = p.nombre;
             document.getElementById('modalPrice').innerText = `$${p.precio.toLocaleString()}`;
             
+            // Restablecer texto a recortado
+            const descElem = document.getElementById('modalDescription');
+            descElem.classList.remove('expanded');
+            document.getElementById('toggleDescBtn').innerText = "Mostrar texto completo";
+            document.getElementById('modalImg').style.height = "230px";
+
             const desc = p.descripcion || `Producto oficial y coleccionable de ${p.nombre}. ¡Disponible en COMICLANONA para entrega inmediata! 🎁`;
-            document.getElementById('modalDescription').innerText = desc;
+            descElem.innerText = desc;
 
             const modalAddBtn = document.getElementById('modalAddBtn');
             modalAddBtn.onclick = () => {
@@ -1216,6 +1254,18 @@
             document.getElementById('zoomModal').classList.remove('active');
         }
 
+        function moveZoomModalImage(direction) {
+            if (modalImagesList.length <= 1) return;
+            modalCurrentImgIndex += direction;
+            if (modalCurrentImgIndex < 0) modalCurrentImgIndex = modalImagesList.length - 1;
+            if (modalCurrentImgIndex >= modalImagesList.length) modalCurrentImgIndex = 0;
+            
+            // Actualiza tanto el zoom como el modal de atrás para que vayan sincronizados
+            const zoomImg = document.getElementById('zoomImg');
+            zoomImg.src = modalImagesList[modalCurrentImgIndex];
+            updateModalImageDisplay();
+        }
+
         async function loadProductsFromFolder() {
             try {
                 const response = await fetch('productos/productos.json?v=' + new Date().getTime());
@@ -1232,7 +1282,7 @@
                 grid.innerHTML = `
                     <div style="grid-column: 1/-1; text-align:center; padding: 30px 15px; background: #fff3f3; border: 2px dashed #e60012; border-radius: 12px; margin: 10px 0;">
                         <h4 style="color: #e60012; margin-bottom: 8px;">⚠️ Error al cargar productos.json</h4>
-                        <p style="font-size: 12px; color: #555;">Verifica que el archivo no tenga errores de sintaxis (comas o comillas dobles repetidas).</p>
+                        <p style="font-size: 12px; color: #555;">Verifica que el archivo no tenga errores de sintaxis.</p>
                         <p style="font-size: 11px; color: #888; margin-top: 6px;"><b>Detalle:</b> ${error.message}</p>
                     </div>
                 `;
@@ -1249,14 +1299,7 @@
             }
 
             filteredList.forEach((p, index) => {
-                let cat = "Coleccionable";
-                if (p.id && p.id.startsWith('AN')) cat = "Manga / Anime";
-                else if (p.id && p.id.startsWith('VIT')) cat = "Vitrina / Snacks";
-                else if (p.id && p.id.startsWith('TCG')) cat = "TCG / Cartas";
-                else if (p.id && p.id.startsWith('IMP')) cat = "Papelería";
-                else if (p.id && p.id.startsWith('JUE')) cat = "Juegos / Diversión";
-                else if (p.id && p.id.startsWith('ACC')) cat = "Accesorios";
-                else if (p.id && p.id.startsWith('PER')) cat = "Personalizados";
+                let cat = p.categoria || p.cat || "Coleccionable";
 
                 let images = [];
                 if (p.imagen && !p.imagen.includes("Aquí va el link")) {
@@ -1309,6 +1352,7 @@
             });
         }
 
+        // SISTEMA DE FILTRADO INTELIGENTE (RESPETA LA CATEGORÍA DEL EXCEL)
         function filterCategory(cat) {
             currentCategory = cat;
             document.querySelectorAll('.cat-btn').forEach(btn => btn.classList.remove('active'));
@@ -1318,79 +1362,42 @@
                 renderProducts(products);
             } else {
                 renderProducts(products.filter(p => {
-                    if (!p.id) return true;
-                    
-                    let idLower = p.id ? p.id.toLowerCase() : "";
-                    let nombreLower = p.nombre ? p.nombre.toLowerCase() : "";
+                    let productoCat = (p.categoria || p.cat || "").toLowerCase();
+                    let nombreLower = (p.nombre || "").toLowerCase();
+                    let idLower = (p.id || "").toLowerCase();
 
+                    // Si el Excel tiene la categoría exacta escrita, se respeta de inmediato
+                    if (productoCat.includes(cat.toLowerCase())) {
+                        return true;
+                    }
+
+                    // Respaldo por palabras clave si la categoría del excel está vacía o genérica
                     if (cat === 'Manga') {
-                        return idLower.startsWith('an') && 
-                               !nombreLower.includes('camiseta') && 
-                               !nombreLower.includes('ropa') && 
-                               !nombreLower.includes('llavero') && 
-                               !nombreLower.includes('pin') && 
-                               !nombreLower.includes('poster') && 
-                               !nombreLower.includes('póster') &&
-                               !nombreLower.includes('pocillo') &&
-                               !nombreLower.includes('taza') &&
-                               !nombreLower.includes('personalizado');
+                        return idLower.startsWith('an') && !nombreLower.includes('camiseta') && !nombreLower.includes('figura') && !nombreLower.includes('hot wheels');
                     }
-
                     if (cat === 'Figura') {
-                        return idLower.startsWith('ani') || 
-                               nombreLower.includes('figura') || 
-                               nombreLower.includes('funko') || 
-                               nombreLower.includes('nendoroid');
+                        return idLower.startsWith('ani') || nombreLower.includes('figura') || nombreLower.includes('funko') || nombreLower.includes('hot wheels');
                     }
-
                     if (cat === 'TCG') {
-                        return idLower.startsWith('tcg') || 
-                               nombreLower.includes('carta') || 
-                               nombreLower.includes('sobre') || 
-                               nombreLower.includes('booster');
+                        return idLower.startsWith('tcg') || nombreLower.includes('carta') || nombreLower.includes('booster');
                     }
-
                     if (cat === 'Juegos') {
-                        return idLower.startsWith('jue') || 
-                               nombreLower.includes('juego');
+                        return idLower.startsWith('jue') || nombreLower.includes('juego');
                     }
-
                     if (cat === 'Accesorios') {
-                        return (idLower.startsWith('acc') || 
-                               nombreLower.includes('llavero') || 
-                               nombreLower.includes('pin') || 
-                               nombreLower.includes('colgante') || 
-                               nombreLower.includes('collar') || 
-                               nombreLower.includes('pulsera') || 
-                               nombreLower.includes('pocillo') ||
-                               nombreLower.includes('taza')) &&
-                               !nombreLower.includes('personalizado');
+                        return idLower.startsWith('acc') || nombreLower.includes('llavero') || nombreLower.includes('pin') || nombreLower.includes('pocillo');
                     }
-
-                    // FILTRO DE PERSONALIZADOS (Detecta código PER o palabras clave)
                     if (cat === 'Personalizados') {
-                        return idLower.startsWith('per') || 
-                               nombreLower.includes('personalizado') || 
-                               nombreLower.includes('custom') || 
-                               nombreLower.includes('a pedido');
+                        return idLower.startsWith('per') || nombreLower.includes('personalizado');
                     }
-
                     if (cat === 'Poster') {
-                        return nombreLower.includes('poster') || 
-                               nombreLower.includes('póster') || 
-                               nombreLower.includes('cuadro');
+                        return nombreLower.includes('poster') || nombreLower.includes('póster');
+                    }
+                    if (cat === 'Ropa') {
+                        return idLower.startsWith('rop') || nombreLower.includes('camiseta') || nombreLower.includes('hoodie');
                     }
 
-                    if (cat === 'Ropa') {
-                        return (idLower.startsWith('rop') || 
-                               nombreLower.includes('camisa') || 
-                               nombreLower.includes('camiseta') || 
-                               nombreLower.includes('hoodie') || 
-                               nombreLower.includes('saco')) &&
-                               !nombreLower.includes('personalizado');
-                    }
-                    
-                    return true;
+                    return false;
                 }));
             }
         }
@@ -1567,7 +1574,6 @@
             slide.style.backgroundImage = `url('${images[currentIndex]}')`;
         }
 
-        // BANNERS
         const bannerList = [
             {
                 img: "assets/banners/New Project.png",
