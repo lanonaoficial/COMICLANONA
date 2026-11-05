@@ -1,7 +1,20 @@
 [
   {
+    "id": "ANI-135",
+    "nombre": "🧾 Peluche Bob Esponja - Clásico (Entrega Inmediata)",
+    "precio": 45000,
+    "imagen": "productos/berserk-tomo-1/framebird-converted/20261104_123430.webp, productos/berserk-tomo-1/framebird-converted/20261104_123455.webp, productos/berserk-tomo-1/framebird-converted/20261104_123518.webp,",
+    "descripcion": "Lleva la alegría de Fondo de Bikini directo a tu habitación con este tierno y divertido peluche de Bob Esponja! Con sus icónicos detalles bordados y una sonrisa contagiosa, es perfecto para cualquier fan de la serie.\nDetalles:** Excelente acabado con costuras y bordados de alta calidad en el rostro y su vestuario clásico.\n⚡ Disponibilidad:** **¡Entrega inmediata!** ¡Hazlo tuyo y dale un toque alegre a tu colección!"
+  },
+  {
+    "id": "ANI-137",
+    "nombre": "### 🐾 **Peluche Gato Gruñón - Estilo Único (Entrega Inmediata)**",
+    "precio": 45000,
+    "imagen": "productos/berserk-tomo-1/framebird-converted/20261104_123339.webp, productos/berserk-tomo-1/framebird-converted/20261103_182812.webp, productos/berserk-tomo-1/framebird-converted/20261104_123350.webp",
+    "descripcion": "¡Dale un toque de actitud y ternura a tu espacio con este adorable pero gruñón gatito de peluche! Con una expresión inigualable y detalles bordados de alta calidad, es el compañero perfecto para la repisa o para abrazar.\n\n* **Tamaño:** Medida aproximada de **30 cm**.\n\n* **Detalles:** Textura súper suave, patitas detalladas y una carita de pocos amigos que te robará el corazón.\n* **⚡ Disponibilidad:** **¡Entrega inmediata!**"
+  },
+  {
     "id": "ANI-138",
-    "categoria": "Figura",
     "nombre": "Figura Monkey D. Luffy (Gear 5) - One Piece (Entrega Inmediata)",
     "precio": 160000,
     "imagen": "productos/berserk-tomo-1/20261103_182520_33_11zon.webp, productos/berserk-tomo-1/20261103_182532_34_11zon.webp, productos/berserk-tomo-1/luffy articurable.webp, productos/berserk-tomo-1/poses de luffy articurable.webp",
@@ -9,7 +22,6 @@
   },
   {
     "id": "ANI-139",
-    "categoria": "Figura",
     "nombre": " Figura Portgas D. Ace (Fire Fist) - One Piece (Entrega Inmediata)",
     "precio": 160000,
     "imagen": "productos/berserk-tomo-1/20261103_182345_30_11zon.webp, productos/berserk-tomo-1/20261103_182448_32_11zon.webp, productos/berserk-tomo-1/20261103_182412_31_11zon.webp, productos/berserk-tomo-1/Gemini_Generated_Image_hio8lrhio8lrhio8_11zon.webp",
@@ -17,7 +29,6 @@
   },
   {
     "id": "ANI-186",
-    "categoria": "Figura",
     "nombre": "\n🔥 Figura Vinsmoke Sanji (Diable Jambe) - One Piece (Entrega Inmediata)",
     "precio": 160000,
     "imagen": "productos/berserk-tomo-1/20261103_181934_26_11zon.webp, productos/berserk-tomo-1/20261103_181939_27_11zon.webp, productos/berserk-tomo-1/20261103_181943_28_11zon.webp, productos/berserk-tomo-1/20261103_182009_29_11zon.webp",
@@ -25,7 +36,6 @@
   },
   {
     "id": "ANI-198",
-    "categoria": "Figura",
     "nombre": "❤️ Figura Boa Hancock - One Piece (Entrega Inmediata)",
     "precio": 29000,
     "imagen": "productos/berserk-tomo-1/20261028_121818_5_11zon.webp, productos/berserk-tomo-1/20261028_121924_6_11zon.webp",
@@ -33,7 +43,6 @@
   },
   {
     "id": "ANI-264",
-    "categoria": "Manga",
     "nombre": "BERSECK DELUXE EDITION TOMO#1",
     "precio": 180000,
     "imagen": "productos/berserk-tomo-1/20261026_133959_1_11zon.webp, productos/berserk-tomo-1/20261026_134035_2_11zon.webp, productos/berserk-tomo-1/20261026_134719_4_11zon.webp, productos/berserk-tomo-1/20261026_134541_3_11zon.webp",
@@ -41,7 +50,6 @@
   },
   {
     "id": "ANI-265",
-    "categoria": "Accesorios",
     "nombre": "Hot Wheels - Hoto Roto (Entrega Inmediata)",
     "precio": 18000,
     "imagen": "productos/berserk-tomo-1/20261028_124426_7_11zon.webp",
@@ -49,7 +57,6 @@
   },
   {
     "id": "ANI-266",
-    "categoria": "Accesorios",
     "nombre": "Hot Wheels - Toyota Prius Custom (Entrega Inmediata)",
     "precio": 18000,
     "imagen": "productos/berserk-tomo-1/20261028_133329_8_11zon.webp",
@@ -57,7 +64,6 @@
   },
   {
     "id": "ANI-267",
-    "categoria": "Accesorios",
     "nombre": "Hot Wheels - Gotta Go (Entrega Inmediata)*",
     "precio": 18000,
     "imagen": "productos/berserk-tomo-1/20261028_133414_9_11zon.webp",
@@ -65,7 +71,6 @@
   },
   {
     "id": "ANI-268",
-    "categoria": "Accesorios",
     "nombre": "Hot Wheels - Ford F-150 Lightning Supertruck (Entrega Inmediata)",
     "precio": 18000,
     "imagen": "productos/berserk-tomo-1/20261028_133546_10_11zon.webp",
@@ -73,7 +78,6 @@
   },
   {
     "id": "ANI-269",
-    "categoria": "Accesorios",
     "nombre": "Hot Wheels - Bugatti Bolide (Entrega Inmediata)",
     "precio": 18000,
     "imagen": "productos/berserk-tomo-1/20261028_134011_11_11zon.webp",
@@ -81,7 +85,6 @@
   },
   {
     "id": "ANI-270",
-    "categoria": "Accesorios",
     "nombre": "🛞Hot Wheels - Carrito Clásico Translúcido (Entrega Inmediata)",
     "precio": 18000,
     "imagen": "productos/berserk-tomo-1/20261028_134855_13_11zon.webp, productos/berserk-tomo-1/20261028_134525_12_11zon.webp",
@@ -89,7 +92,6 @@
   },
   {
     "id": "ANI-271",
-    "categoria": "Accesorios",
     "nombre": "Hot Wheels '67 Lotus Type 49 (Entrega Inmediata)",
     "precio": 22000,
     "imagen": "productos/berserk-tomo-1/20261028_135107_15_11zon.webp, productos/berserk-tomo-1/20261028_135048_14_11zon.webp, productos/berserk-tomo-1/20261028_135122_16_11zon.webp",
@@ -97,7 +99,6 @@
   },
   {
     "id": "ANI-272",
-    "categoria": "Accesorios",
     "nombre": "Hot Wheels - Van Temática de Rick y Morty (Entrega Inmediata)",
     "precio": 90000,
     "imagen": "productos/berserk-tomo-1/20261028_135255_18_11zon.webp, productos/berserk-tomo-1/20261028_135251_17_11zon.webp, productos/berserk-tomo-1/20261028_135301_19_11zon.webp,",
@@ -105,7 +106,6 @@
   },
   {
     "id": "ANI-273",
-    "categoria": "Accesorios",
     "nombre": "Hot Wheels Layin' Lowrider (Entrega Inmediata)",
     "precio": 20000,
     "imagen": "productos/berserk-tomo-1/20261028_140840_20_11zon.webp, productos/berserk-tomo-1/20261028_140945_21_11zon.webp, productos/berserk-tomo-1/20261028_141047_22_11zon.webp",
@@ -113,10 +113,36 @@
   },
   {
     "id": "ANI-274",
-    "categoria": "Accesorios",
     "nombre": "Hot Wheels Birthday Burner  (Entrega Inmediata)",
     "precio": 18000,
     "imagen": "productos/berserk-tomo-1/20261028_141126_23_11zon.webp, productos/berserk-tomo-1/20261028_141200_25_11zon.webp, productos/berserk-tomo-1/20261028_141154_24_11zon.webp",
     "descripcion": "Una pieza súper original y colorida con diseño estilo arte urbano, llantas rosas y un frente con mucha personalidad.\n\n* **Estado:** 🌟 Excelente, pieza única y llamativa.\n\n\n* **Protección:** **¡Incluye su cajita de protección acrílica!** 🛡️\n* **⚡ Disponibilidad:** **¡Entrega inmediata!**"
+  },
+  {
+    "id": "ANI-275",
+    "nombre": "Baki hanma figura",
+    "precio": 70000,
+    "imagen": "productos/berserk-tomo-1/framebird-converted/20261104_124435.webp, productos/berserk-tomo-1/framebird-converted/20261104_124445.webp, productos/berserk-tomo-1/framebird-converted/20261104_124445.webp"
+  },
+  {
+    "id": "ANI-282",
+    "nombre": "🧾 Peluche Woody - Toy Story (Entrega Inmediata)",
+    "precio": 40000,
+    "imagen": "productos/berserk-tomo-1/framebird-converted/20261104_123545.webp, productos/berserk-tomo-1/framebird-converted/20261104_123548.webp, productos/berserk-tomo-1/framebird-converted/20261104_123607.webp",
+    "descripcion": "¡Lleva toda la diversión y la nostalgia de Toy Story a tu hogar con este tierno peluche del comisario Woody! Con su clásico sombrero marrón, su pañuelo rojo y sus detalles bordados en el rostro y la camisa, es el compañero ideal para cualquier fan de la película.\n\n* **Detalles:** Excelente acabado con costuras y bordados de alta calidad en su diseño tradicional.\n\n\n* **⚡ Disponibilidad:** **¡Entrega inmediata!**"
+  },
+  {
+    "id": "ANI-283",
+    "nombre": "🧾 Peluche Donatello - Tortugas Ninja (Entrega Inmediata)",
+    "precio": 32000,
+    "imagen": "productos/berserk-tomo-1/framebird-converted/20261104_123656.webp, productos/berserk-tomo-1/framebird-converted/20261104_123705.webp",
+    "descripcion": "¡Lleva la acción y la genialidad del equipo a tu casa con este tierno y detallado peluche de Donatello! Con su icónico antifaz morado, su característico caparazón y su bastón bo de combate, es una pieza fantástica para cualquier fan de las Tortugas Ninja.\n\nDetalles:** Excelente acabado de alta calidad con costuras y bordados fieles al personaje, incluyendo su arma distintiva.\n\n\n⚡ Disponibilidad:** **¡Entrega inmediata!** ¡Añádelo ya a tu colección y defiende la ciudad!"
+  },
+  {
+    "id": "ANI-284",
+    "nombre": "🧾 Peluche Raphael - Tortugas Ninja (Entrega Inmediata)",
+    "precio": 32000,
+    "imagen": "productos/berserk-tomo-1/framebird-converted/20261104_123731.webp, productos/berserk-tomo-1/framebird-converted/20261104_123748.webp",
+    "descripcion": "¡Dale toda la actitud y la fuerza del equipo a tu colección con este tierno pero rudo peluche de Raphael! Con su icónico antifaz rojo, su característico caparazón y sus dos sai de combate en las manos, es una pieza perfecta para cualquier fan de la clásica serie.\n\n* **Detalles:** Excelente acabado de alta calidad con costuras y bordados fieles al personaje, incluyendo sus armas distintivas.\n\n\n⚡ Disponibilidad:** **¡Entrega inmediata!**"
   }
 ]
