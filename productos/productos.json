@@ -1,7 +1,15 @@
 [
   {
+    "id": "ANI-119",
+    "categoria": "Figura",
+    "nombre": "🧾 Figura Fushi / Rean / Personaje (Entrega Inmediata)",
+    "precio": 60000,
+    "imagen": "productos/berserk-tomo-1/framebird-converted(1)/20261104_125151.webp,  productos/berserk-tomo-1/framebird-converted(1)/20261104_125200.webp, productos/berserk-tomo-1/framebird-converted(1)/20261104_125219.webp",
+    "descripcion": "¡Lleva esta figura de acción con pose de combate y pistola en mano a tu colección!  \n Detalles: Excelente acabado con base de soporte.   \n⚡ Disponibilidad: ¡Entrega inmediata!"
+  },
+  {
     "id": "ANI-135",
-    "categoria": "ANIME",
+    "categoria": "Accesorios",
     "nombre": "🧾 Peluche Bob Esponja - Clásico (Entrega Inmediata)",
     "precio": 45000,
     "imagen": "productos/berserk-tomo-1/framebird-converted/20261104_123430.webp, productos/berserk-tomo-1/framebird-converted/20261104_123455.webp, productos/berserk-tomo-1/framebird-converted/20261104_123518.webp,",
@@ -32,12 +40,36 @@
     "descripcion": "¡Lleva contigo al legendario Puño de Fuego! Una figura articulada increíble que incluye varios rostros intercambiables y manos con efectos de poder.\n\n* **Estado:** Nuevo en caja.\n* **⚡ Disponibilidad:** **¡Entrega inmediata!** Un imperdible absoluto para los fans de Ace."
   },
   {
+    "id": "ANI-169",
+    "categoria": "Figura",
+    "nombre": "🧾 Figura Satoru Gojo - Jujutsu Kaisen (Entrega Inmediata)",
+    "precio": 60000,
+    "imagen": "productos/berserk-tomo-1/framebird-converted(1)/20261104_125322.webp, productos/berserk-tomo-1/framebird-converted(1)/20261104_125326.webp, productos/berserk-tomo-1/framebird-converted(1)/20261104_125338.webp,",
+    "descripcion": "¡Añade al hechicero más poderoso a tu colección con esta figura de Gojo haciendo su clásica pose!   Tamaño: Medida aproximada de 22 cm.   \nDetalles: Excelente acabado con su uniforme oscuro y venda en los ojos.   \n⚡ Disponibilidad: ¡Entrega inmediata!"
+  },
+  {
     "id": "ANI-186",
     "categoria": "Figura",
     "nombre": "\n🔥 Figura Vinsmoke Sanji (Diable Jambe) - One Piece (Entrega Inmediata)",
     "precio": 160000,
     "imagen": "productos/berserk-tomo-1/20261103_181934_26_11zon.webp, productos/berserk-tomo-1/20261103_181939_27_11zon.webp, productos/berserk-tomo-1/20261103_181943_28_11zon.webp, productos/berserk-tomo-1/20261103_182009_29_11zon.webp",
     "descripcion": "¡El chef del Sombrero de Paja desatando todo el poder del fuego y las llamas en una pose épica de combate!\n\n* **Detalles:** Excelente nivel de detalle con efectos de fuego translúcido y base temática de destrucción.\n\n\n* **⚡ Disponibilidad:** **¡Entrega inmediata!** Añade este despliegue de poder a tu colección."
+  },
+  {
+    "id": "ANI-189",
+    "categoria": "Figura",
+    "nombre": "FIGURA DE RYUK|",
+    "precio": 70000,
+    "imagen": "productos/berserk-tomo-1/framebird-converted(1)/20261104_124906.webp, productos/berserk-tomo-1/framebird-converted(1)/20261104_124920.webp, productos/berserk-tomo-1/framebird-converted(1)/20261104_124940.webp,",
+    "descripcion": "¡Lleva al shinigami más famoso a tu colección con esta impresionante y detallada figura de Ryuk sosteniendo la Death Note!  \n Tamaño: Medida aproximada de 20 cm.   Detalles: Excelente acabado con alas, aretes y su icónica sonrisa siniestra.   \n⚡ Disponibilidad: ¡Entrega inmediata!"
+  },
+  {
+    "id": "ANI-192",
+    "categoria": "Figura",
+    "nombre": "🧾 Figura Tanjiro Kamado (Hinokami Kagura) - Kimetsu no Yaiba (Entrega Inmediata)",
+    "precio": 85000,
+    "imagen": "productos/berserk-tomo-1/framebird-converted(1)/20261104_125049.webp, productos/berserk-tomo-1/framebird-converted(1)/20261104_125127.webp,",
+    "descripcion": "¡Añade al cazador de demonios más determinado a tu colección con esta figura de Tanjiro desatando la Danza del Dios del Fuego!   Tamaño: Medida aproximada de 25 cm.   Detalles: Incluye efectos translúcidos de fuego en su espada, base de soporte y viene con su caja original.   ⚡ Disponibilidad: ¡Entrega inmediata!"
   },
   {
     "id": "ANI-198",
@@ -140,7 +172,24 @@
     "categoria": "Figura",
     "nombre": "Baki hanma figura",
     "precio": 70000,
-    "imagen": "productos/berserk-tomo-1/framebird-converted/20261104_124435.webp, productos/berserk-tomo-1/framebird-converted/20261104_124445.webp, productos/berserk-tomo-1/framebird-converted/20261104_124445.webp"
+    "imagen": "productos/berserk-tomo-1/framebird-converted/20261104_124435.webp, productos/berserk-tomo-1/framebird-converted/20261104_124445.webp, productos/berserk-tomo-1/framebird-converted(1)/20261104_124448.webp",
+    "descripcion": "Ffigura de Ohma Tokita en pose de combate!   Detalles: Excelente acabado muscular y postura de pelea.   \n⚡ Disponibilidad: ¡Entrega inmediata!"
+  },
+  {
+    "id": "ANI-276",
+    "categoria": "Figura",
+    "nombre": "🧾 Figura Monkey D. Luffy (Kimono / Wano) - One Piece (Entrega Inmediata)",
+    "precio": 28000,
+    "imagen": "productos/berserk-tomo-1/framebird-converted(1)/20261104_125520.webp, productos/berserk-tomo-1/framebird-converted(1)/20261104_125524.webp, productos/berserk-tomo-1/framebird-converted(1)/20261104_125531.webp",
+    "descripcion": "¡Lleva al futuro Rey de los Piratas con su tradicional atuendo de Wano a tu colección!   Detalles: Excelente acabado con kimono rojo de patrones hexagonales y base de soporte.\nDisponibilidad: ¡Entrega inmediata!"
+  },
+  {
+    "id": "ANI-277",
+    "categoria": "Figura",
+    "nombre": "🧾 Figura Admiral Ryokugyu / Aramaki - One Piece (Entrega Inmediata)",
+    "precio": 28000,
+    "imagen": "productos/berserk-tomo-1/framebird-converted(1)/20261104_125406.webp, productos/berserk-tomo-1/framebird-converted(1)/20261104_125409.webp, productos/berserk-tomo-1/framebird-converted(1)/20261104_125443.webp",
+    "descripcion": "¡Lleva al temible Almirante de la Marine a tu colección con esta figura en pose desafiante!   Tamaño: Medida aproximada de 20 cm.   \nDetalles: Excelente acabado con su característico abrigo blanco de la Marine sobre los hombros, gafas oscuras y su espada.   \n⚡ Disponibilidad: ¡Entrega inmediata!"
   },
   {
     "id": "ANI-282",
@@ -165,5 +214,13 @@
     "precio": 32000,
     "imagen": "productos/berserk-tomo-1/framebird-converted/20261104_123731.webp, productos/berserk-tomo-1/framebird-converted/20261104_123748.webp",
     "descripcion": "¡Dale toda la actitud y la fuerza del equipo a tu colección con este tierno pero rudo peluche de Raphael! Con su icónico antifaz rojo, su característico caparazón y sus dos sai de combate en las manos, es una pieza perfecta para cualquier fan de la clásica serie.\n\n* **Detalles:** Excelente acabado de alta calidad con costuras y bordados fieles al personaje, incluyendo sus armas distintivas.\n\n\n⚡ Disponibilidad:** **¡Entrega inmediata!**"
+  },
+  {
+    "id": "ANI-119",
+    "categoria": "Figura",
+    "nombre": "SSakamoto figuras",
+    "precio": 0,
+    "imagen": "productos/berserk-tomo-1/framebird-converted(1)/20261104_125151.webp,  productos/berserk-tomo-1/framebird-converted(1)/20261104_125200.webp, productos/berserk-tomo-1/framebird-converted(1)/20261104_125219.webp",
+    "descripcion": "¡Lleva esta figura de acción con pose de combate y pistola en mano a tu colección!  \n Detalles: Excelente acabado con base de soporte.   \n⚡ Disponibilidad: ¡Entrega inmediata!"
   }
 ]
