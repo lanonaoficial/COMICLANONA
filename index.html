@@ -7,7 +7,7 @@
     <link rel="icon" type="image/webp" href="encabezado/MUSEPAD.webp">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- FontAwesome Icons -->
+    <!-- FonftAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         :root {
@@ -1334,56 +1334,63 @@
             totalAmount.innerText = Math.round(total).toLocaleString();
         }
 
-        // FUNCIÓN CORREGIDA: Incluye nombre completo, recargos, pago, entrega y totales detallados
+        // FUNCIÓN CORREGIDA Y BLINDADA PARA WHATSAPP
         function sendWhatsAppOrder() {
             if (cart.length === 0) {
                 alert('Tu carrito está vacío.');
                 return;
             }
 
-            let subtotal = cart.reduce((acc, i) => acc + (i.price * i.qty), 0);
-            let totalItems = cart.reduce((acc, i) => acc + i.qty, 0);
+            let subtotal = cart.reduce((acc, i) => acc + ((i.price || 0) * (i.qty || 1)), 0);
+            let totalItems = cart.reduce((acc, i) => acc + (i.qty || 1), 0);
             let feeSistecredito = paymentMethod === 'Sistecrédito' ? subtotal * 0.09 : 0;
             let total = Math.round(subtotal + feeSistecredito);
 
-            let addressText = document.getElementById('shippingAddress').value.trim();
+            let addressInput = document.getElementById('shippingAddress');
+            let addressText = addressInput ? addressInput.value.trim() : '';
             if (deliveryMethod === 'Envío a domicilio' && !addressText) {
                 alert('Por favor ingresa tu dirección y ciudad para el envío.');
                 return;
             }
 
-            let message = `🧾 *FACTURA DE LA NONA :D* 🧾%0A`;
-            message += `¡Hola COMICLANONA! 🎁🎄 Quiero realizar el siguiente pedido:%0A%0A`;
-            
+            let lines = [];
+            lines.push("🧾 *FACTURA DE LA NONA :D* 🧾");
+            lines.push("¡Hola COMICLANONA! 🎁🎄 Quiero realizar el siguiente pedido:\n");
+
             cart.forEach(i => {
-                message += `• ${i.qty}x *${i.name}* — $${(i.price * i.qty).toLocaleString()}%0A`;
+                let itemName = i.name || i.nombre || "Producto coleccionable";
+                let itemPrice = (i.price || 0) * (i.qty || 1);
+                lines.push(`• ${i.qty || 1}x *${itemName}* — $${itemPrice.toLocaleString()}`);
             });
-            
-            message += `%0A----------------------------%0A`;
-            message += `📦 *Total Artículos:* ${totalItems}%0A`;
-            message += `💵 *Subtotal:* $${subtotal.toLocaleString()}%0A`;
-            message += `💳 *Método de Pago:* ${paymentMethod}%0A`;
-            
+
+            lines.push("\n----------------------------");
+            lines.push(`📦 *Total Artículos:* ${totalItems}`);
+            lines.push(`💵 *Subtotal:* $${subtotal.toLocaleString()}`);
+            lines.push(`💳 *Método de Pago:* ${paymentMethod}`);
+
             if (paymentMethod === 'Sistecrédito') {
-                message += `📈 *Recargo Sistecrédito (9%):* +$${Math.round(feeSistecredito).toLocaleString()}%0A`;
+                lines.push(`📈 *Recargo Sistecrédito (9%):* +$${Math.round(feeSistecredito).toLocaleString()}`);
             }
-            
-            message += `🚚 *Método de Entrega:* ${deliveryMethod}%0A`;
-            
+
+            lines.push(`🚚 *Método de Entrega:* ${deliveryMethod}`);
+
+            if (deliveryMethod === 'Envío a domicilio' && addressText) {
+                lines.push(`📍 *Dirección de Envío:* ${addressText}`);
+            }
+
+            lines.push("----------------------------");
+            lines.push(`💰 *TOTAL A PAGAR:* *$${total.toLocaleString()}*`);
+
             if (deliveryMethod === 'Envío a domicilio') {
-                message += `📍 *Dirección de Envío:* ${addressText}%0A`;
+                lines.push("*(El costo del envío se coordinará por este medio)*");
             }
 
-            message += `----------------------------%0A`;
-            message += `💰 *TOTAL A PAGAR:* *$${total.toLocaleString()}*%0A`;
-            
-            if (deliveryMethod === 'Envío a domicilio') {
-                message += `*(El costo del envío se coordinará por este medio)*%0A`;
-            }
+            lines.push("\n¡Quedo atenta! ✨");
 
-            message += `%0A¡Quedo atenta! ✨`;
+            let message = lines.join('\n');
+            let encodedMessage = encodeURIComponent(message);
 
-            window.open(`https://wa.me/573002506144?text=${message}`, '_blank');
+            window.open(`https://wa.me/573002506144?text=${encodedMessage}`, '_blank');
         }
 
         function moveSlide(event, productIndex, direction) {
