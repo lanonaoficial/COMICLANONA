@@ -936,7 +936,6 @@
             filteredList.forEach((p, index) => {
                 let cat = p.categoria || p.cat || "Coleccionable";
                 
-                // LEEMOS DISPONIBILIDAD (VERDE, ROJO O AMARILLO)
                 let estado = (p.disponibilidad || "DISPONIBLE").toUpperCase().trim();
                 let stockClass = "stock-disponible";
                 let stockText = "Disponible";
@@ -997,7 +996,9 @@
                         <div>
                             <div class="product-price-stock">
                                 <span class="product-price">$${p.precio.toLocaleString()}</span>
-                                <span class="stock-status ${stockClass}"><i class="fa-solid fa-circle" style="font-size:7px; color: ${dotColor};"></i> ${stockText}</span>
+                                <span class="stock-status ${stockClass}">
+                                    <i class="fa-solid fa-circle" style="font-size:7px; color: ${dotColor};"></i> ${stockText}
+                                </span>
                             </div>
                             ${btnHtml}
                         </div>
@@ -1136,7 +1137,6 @@
             totalAmount.innerText = Math.round(total).toLocaleString();
         }
 
-        // WHATSAPP CORREGIDO PARA ADDI
         function sendWhatsAppOrder() {
             if (cart.length === 0) {
                 alert('Tu carrito está vacío.');
