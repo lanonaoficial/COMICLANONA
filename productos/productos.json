@@ -369,11 +369,65 @@
     "descripcion": "¡Lleva al Pilar de la Llama a tu colección con esta divertida figura de Rengoku disfrutando de unos onigiri!\r\n\r\n* **Detalles:** Excelente acabado con su uniforme de cazador, su haori característico y los🍙 onigiri en las manos.\r\n* **⚡ Disponibilidad:** **¡Entrega inmediata!**"
   },
   {
+    "id": "ANI-296",
+    "categoria": "Figura",
+    "nombre": " 🧾 Figura Obanai Iguro - Kimetsu no Yaiba   ",
+    "precio": 38000,
+    "imagen": "productos/berserk-tomo-1/teto4/figura_203.heic.webp, \nproductos/berserk-tomo-1/teto4/figura_205.heic.webp,",
+    "disponibilidad": "DISPONIBLE",
+    "descripcion": "Descripción: Figura coleccionable de Obanai Iguro, el Pilar de la Serpiente, en pose sentada con su fiel serpiente Kaburamaru enrollada en el cuello.    \nDetalles: Excelente acabado con su uniforme de cazador, su característico haori a rayas blancas y negras, y la serpiente detallada.   \n⚡ Disponibilidad: ¡Entrega inmediata!"
+  },
+  {
+    "id": "ANI-297",
+    "categoria": "Figura",
+    "nombre": " 🧾 Figura Sanemi Shinazugawa - Kimetsu no Yaiba",
+    "precio": 38000,
+    "imagen": "productos/berserk-tomo-1/teto4/figura_192.heic.webp, \nproductos/berserk-tomo-1/teto4/figura_193.heic.webp, \nproductos/berserk-tomo-1/teto4/figura_194.heic.webp,",
+    "disponibilidad": "DISPONIBLE",
+    "descripcion": "Descripción: Figura coleccionable de Sanemi Shinazugawa, el Pilar del Viento, en pose sentada sobre un soporte con detalles fieles al personaje.\n\nDetalles: Excelente acabado con las cicatrices características en su cuerpo y rostro, su uniforme de cazador y su haori claro.\n\n⚡ Disponibilidad: ¡Entrega inmediata!"
+  },
+  {
+    "id": "ANI-298",
+    "categoria": "Figura",
+    "nombre": " 🧾 Figura Gyomei Himejima - Kimetsu no Yaiba   ",
+    "precio": 38000,
+    "imagen": "productos/berserk-tomo-1/teto4/figura_200.heic.webp, \nproductos/berserk-tomo-1/teto4/figura_201.heic.webp,",
+    "disponibilidad": "DISPONIBLE",
+    "descripcion": "Descripción: Figura coleccionable de Gyomei Himejima, el Pilar de la Roca, en pose de meditación con las manos juntas en oración.   \nDetalles: Excelente acabado con su característico collar de cuentas rojas, uniforme de cazador, cicatriz en la frente y su haori blanco con inscripciones.   \n⚡ Disponibilidad: ¡Entrega inmediata!"
+  },
+  {
+    "id": "ANI-299",
+    "categoria": "Figura",
+    "nombre": "🧾 Figura Shinobu Kocho (Versión Comiendo Onigiri / Look Up Style) - Demon Slayer: Kimetsu no Yaiba",
+    "precio": 38000,
+    "imagen": "productos/berserk-tomo-1/teto4/figura_191.heic.webp;",
+    "disponibilidad": "DISPONIBLE",
+    "descripcion": "Descripción: Figura coleccionable de Shinobu Kocho, el Pilar del Insecto, en pose sentada disfrutando de un onigiri.\n\nDetalles: Excelente acabado con su uniforme de cazadora, su característico haori con diseño de alas de mariposa y los adornos en su cabello.\n\n⚡ Disponibilidad: ¡Entrega inmediata!"
+  },
+  {
+    "id": "ANI-300",
+    "categoria": "Figura",
+    "nombre": " 🧾 Figura Zenitsu Agatsuma - Kimetsu no Yaiba",
+    "precio": 38000,
+    "imagen": "productos/berserk-tomo-1/teto4/figura_195.heic.webp, \nproductos/berserk-tomo-1/teto4/figura_196.heic.webp,",
+    "disponibilidad": "DISPONIBLE",
+    "descripcion": "Descripción: Figura coleccionable de Zenitsu Agatsuma en pose sentada disfrutando de un onigiri.\n\nDetalles: Excelente acabado con su uniforme de cazador, su característico haori amarillo con patrón triangular, medias a juego y el pequeño gorrión Chuntaro en su cabeza.\n\n⚡ Disponibilidad: ¡Entrega inmediata!"
+  },
+  {
+    "id": "ANI-301",
+    "categoria": "Figura",
+    "nombre": " 🧾 Figura Mitsuri Kanroji - Kimetsu no Yaiba   ",
+    "precio": 38000,
+    "imagen": "productos/berserk-tomo-1/teto4/figura_198.heic.webp,",
+    "disponibilidad": "DISPONIBLE",
+    "descripcion": "Descripción: Figura coleccionable de Mitsuri Kanroji, el Pilar del Amor, en pose sentada sosteniendo un onigiri.   Detalles: Excelente acabado con su uniforme de cazadora modificado, su haori blanco, cabello trenzado bicolor y expresión alegre.   ⚡ Disponibilidad: ¡Entrega inmediata!"
+  },
+  {
     "id": "ANI-302",
     "categoria": "Accesorios",
     "nombre": " 🧾 Gorro / Blúmer Homero Simpson (Just Do It?)   ",
     "precio": 22000,
-    "imagen": "productos/berserk-tomo-1/teto3/gorrito de homero chino 3.webp,",
+    "imagen": "productos/berserk-tomo-1/teto3/gorrito de homero chino 3.webp, \nproductos/berserk-tomo-1/teto4/figura_207.heic.webp,",
     "disponibilidad": "DISPONIBLE",
     "descripcion": "Descripción: Gorro de lana gris con diseño bordado/estampado de Homero Simpson durmiendo sobre el logo con la frase \"Just Do It?\".   \nDetalles: Excelente acabado, tela suave y abrigada, ideal para uso diario o colección."
   },
