@@ -5,7 +5,17 @@
     "nombre": "🧾 Figura Fushi / Rean / Personaje (Entrega Inmediata)",
     "precio": 60000,
     "imagen": "productos/berserk-tomo-1/framebird-converted(1)/20261104_125151.webp,  productos/berserk-tomo-1/framebird-converted(1)/20261104_125200.webp, productos/berserk-tomo-1/framebird-converted(1)/20261104_125219.webp",
+    "disponibilidad": "DISPONIBLE",
     "descripcion": "¡Lleva esta figura de acción con pose de combate y pistola en mano a tu colección!  \n Detalles: Excelente acabado con base de soporte.   \n⚡ Disponibilidad: ¡Entrega inmediata!"
+  },
+  {
+    "id": "ANI-132",
+    "categoria": "ANIME",
+    "nombre": "🧾 Peluche Tigger - Disney / Winnie the Pooh",
+    "precio": 32000,
+    "imagen": "productos/berserk-tomo-1/teto3/figura_36.heic.webp, \nproductos/berserk-tomo-1/teto3/figura_38.heic.webp,",
+    "disponibilidad": "DISPONIBLE",
+    "descripcion": "Descripción: Peluche tierno y coleccionable del entrañable personaje Tigger con su clásico diseño rayado y sonrisa alegre.\n\nDetalles: Excelente acabado con material de felpa suave, costuras resistentes y etiqueta original de autenticidad."
   },
   {
     "id": "ANI-135",
@@ -13,7 +23,17 @@
     "nombre": "🧾 Peluche Bob Esponja - Clásico (Entrega Inmediata)",
     "precio": 45000,
     "imagen": "productos/berserk-tomo-1/framebird-converted/20261104_123430.webp, productos/berserk-tomo-1/framebird-converted/20261104_123455.webp, productos/berserk-tomo-1/framebird-converted/20261104_123518.webp,",
+    "disponibilidad": "DISPONIBLE",
     "descripcion": "Lleva la alegría de Fondo de Bikini directo a tu habitación con este tierno y divertido peluche de Bob Esponja! Con sus icónicos detalles bordados y una sonrisa contagiosa, es perfecto para cualquier fan de la serie.\nDetalles:** Excelente acabado con costuras y bordados de alta calidad en el rostro y su vestuario clásico.\n⚡ Disponibilidad:** **¡Entrega inmediata!** ¡Hazlo tuyo y dale un toque alegre a tu colección!"
+  },
+  {
+    "id": "ANI-136",
+    "categoria": "Accesorios",
+    "nombre": "🧾 Peluche Capitán América - Marvel / Avengers",
+    "precio": 32000,
+    "imagen": "productos/berserk-tomo-1/teto3/figura_39.heic.webp, \nproductos/berserk-tomo-1/teto3/figura_40.heic.webp, \nproductos/berserk-tomo-1/teto3/figura_41.heic.webp,",
+    "disponibilidad": "DISPONIBLE",
+    "descripcion": "Descripción: Peluche coleccionable de Capitán América con diseño estilizado y tierno, vistiendo su clásico traje azul, rojo y blanco con la estrella en el pecho.\n\nDetalles: Excelente acabado con material de felpa suave, detalles bordados y costuras resistentes."
   },
   {
     "id": "ANI-137",
@@ -21,6 +41,7 @@
     "nombre": "### 🐾 **Peluche Gato Gruñón - Estilo Único (Entrega Inmediata)**",
     "precio": 45000,
     "imagen": "productos/berserk-tomo-1/framebird-converted/20261104_123339.webp, productos/berserk-tomo-1/framebird-converted/20261103_182812.webp, productos/berserk-tomo-1/framebird-converted/20261104_123350.webp",
+    "disponibilidad": "DISPONIBLE",
     "descripcion": "¡Dale un toque de actitud y ternura a tu espacio con este adorable pero gruñón gatito de peluche! Con una expresión inigualable y detalles bordados de alta calidad, es el compañero perfecto para la repisa o para abrazar.\n\n* **Tamaño:** Medida aproximada de **30 cm**.\n\n* **Detalles:** Textura súper suave, patitas detalladas y una carita de pocos amigos que te robará el corazón.\n* **⚡ Disponibilidad:** **¡Entrega inmediata!**"
   },
   {
@@ -29,6 +50,7 @@
     "nombre": "Figura Monkey D. Luffy (Gear 5) - One Piece (Entrega Inmediata)",
     "precio": 160000,
     "imagen": "productos/berserk-tomo-1/20261103_182520_33_11zon.webp, productos/berserk-tomo-1/20261103_182532_34_11zon.webp, productos/berserk-tomo-1/luffy articurable.webp, productos/berserk-tomo-1/poses de luffy articurable.webp",
+    "disponibilidad": "DISPONIBLE",
     "descripcion": "¡Despierta la máxima libertad del Dios del Sol Nika con esta figura del Gear 5! Viene completamente equipada con rostros intercambiables llenos de expresión y efectos de poder.\n\n* **Estado:** Nuevo\n* **⚡ Disponibilidad:** **¡Entrega inmediata!** ¡Hazte con la transformación más épica de Luffy!"
   },
   {
@@ -37,6 +59,7 @@
     "nombre": " Figura Portgas D. Ace (Fire Fist) - One Piece (Entrega Inmediata)",
     "precio": 160000,
     "imagen": "productos/berserk-tomo-1/20261103_182345_30_11zon.webp, productos/berserk-tomo-1/20261103_182448_32_11zon.webp, productos/berserk-tomo-1/20261103_182412_31_11zon.webp, productos/berserk-tomo-1/Gemini_Generated_Image_hio8lrhio8lrhio8_11zon.webp",
+    "disponibilidad": "DISPONIBLE",
     "descripcion": "¡Lleva contigo al legendario Puño de Fuego! Una figura articulada increíble que incluye varios rostros intercambiables y manos con efectos de poder.\n\n* **Estado:** Nuevo en caja.\n* **⚡ Disponibilidad:** **¡Entrega inmediata!** Un imperdible absoluto para los fans de Ace."
   },
   {
@@ -45,6 +68,7 @@
     "nombre": "🧾 Nendoroid 882 Yumeko Jabami - Kakegurui (Entrega Inmediata)",
     "precio": 120000,
     "imagen": "productos/berserk-tomo-1/iloveimg-converted/20261110_094511.jpg, productos/berserk-tomo-1/iloveimg-converted/20261110_094820.jpg,",
+    "disponibilidad": "DISPONIBLE",
     "descripcion": "¡Añade a la reina de las apuestas de la Academia Privada Hyakkaou a tu colección con esta figura Nendoroid original!   Detalles: Incluye 2 rostros intercambiables adicionales, 2 brazos extra, 3 accesorios (como fichas y cartas), base de soporte y viene con su caja original.   ⚡ Disponibilidad: ¡Entrega inmediata!"
   },
   {
@@ -53,6 +77,7 @@
     "nombre": "🧾 Figura Satoru Gojo - Jujutsu Kaisen (Entrega Inmediata)",
     "precio": 60000,
     "imagen": "productos/berserk-tomo-1/framebird-converted(1)/20261104_125322.webp, productos/berserk-tomo-1/framebird-converted(1)/20261104_125326.webp, productos/berserk-tomo-1/framebird-converted(1)/20261104_125338.webp,",
+    "disponibilidad": "DISPONIBLE",
     "descripcion": "¡Añade al hechicero más poderoso a tu colección con esta figura de Gojo haciendo su clásica pose!   Tamaño: Medida aproximada de 22 cm.   \nDetalles: Excelente acabado con su uniforme oscuro y venda en los ojos.   \n⚡ Disponibilidad: ¡Entrega inmediata!"
   },
   {
@@ -61,7 +86,16 @@
     "nombre": "🧾 Figura Kozuki Oden - One Piece (Entrega Inmediata)",
     "precio": 60000,
     "imagen": "productos/berserk-tomo-1/framebird-converted-(1)/20261104_130227.webp, productos/berserk-tomo-1/framebird-converted-(1)/20261104_130251.webp,",
+    "disponibilidad": "DISPONIBLE",
     "descripcion": "¡Lleva al legendario samurái de Wano a tu colección con esta figura de Oden!  \n Detalles: Excelente acabado con su tradicional atuendo marrón, la soga característica en la espalda y su expresión decidida.   \n⚡ Disponibilidad: ¡Entrega inmediata!"
+  },
+  {
+    "id": "ANI-185",
+    "categoria": "Figura",
+    "nombre": "Figura de zoro cabezas intercambiables, que cambia una base pequeña y las espadas",
+    "precio": 120000,
+    "imagen": "productos/berserk-tomo-1/teto2/figura_33.heic.webp,",
+    "disponibilidad": "DISPONIBLE"
   },
   {
     "id": "ANI-186",
@@ -69,22 +103,25 @@
     "nombre": "\n🔥 Figura Vinsmoke Sanji (Diable Jambe) - One Piece (Entrega Inmediata)",
     "precio": 160000,
     "imagen": "productos/berserk-tomo-1/20261103_181934_26_11zon.webp, productos/berserk-tomo-1/20261103_181939_27_11zon.webp, productos/berserk-tomo-1/20261103_181943_28_11zon.webp, productos/berserk-tomo-1/20261103_182009_29_11zon.webp",
+    "disponibilidad": "DISPONIBLE",
     "descripcion": "¡El chef del Sombrero de Paja desatando todo el poder del fuego y las llamas en una pose épica de combate!\n\n* **Detalles:** Excelente nivel de detalle con efectos de fuego translúcido y base temática de destrucción.\n\n\n* **⚡ Disponibilidad:** **¡Entrega inmediata!** Añade este despliegue de poder a tu colección."
   },
   {
     "id": "ANI-187",
     "categoria": "Figura",
     "nombre": "🧾 Figura Roronoa Zoro (Trono con Accesorios) - One Piece (Entrega Inmediata)",
-    "precio": 0,
+    "precio": 130000,
     "imagen": "productos/berserk-tomo-1/iloveimg-converted/20261110_085950.jpg,  productos/berserk-tomo-1/iloveimg-converted/20261110_092902.jpg, productos/berserk-tomo-1/iloveimg-converted/20261110_093053.jpg, productos/berserk-tomo-1/iloveimg-converted/20261110_093115.jpg, productos/berserk-tomo-1/iloveimg-converted/20261110_093503.jpg, productos/berserk-tomo-1/iloveimg-converted/20261110_093923.jpg,",
+    "disponibilidad": "DISPONIBLE",
     "descripcion": "¡Añade al espadachín de los Sombrero de Paja sentado en su trono a tu colección!\n\nDetalles: Figura de alta calidad, incluye rostro intercambiable adicional, espada desenvainada, espada con efecto de fuego en base y calabaza de sake.\n\n⚡ Disponibilidad: ¡Entrega inmediata!"
   },
   {
     "id": "ANI-189",
     "categoria": "Figura",
-    "nombre": "FIGURA DE RYUK|",
+    "nombre": "",
     "precio": 70000,
     "imagen": "productos/berserk-tomo-1/framebird-converted(1)/20261104_124906.webp, productos/berserk-tomo-1/framebird-converted(1)/20261104_124920.webp, productos/berserk-tomo-1/framebird-converted(1)/20261104_124940.webp,",
+    "disponibilidad": "DISPONIBLE",
     "descripcion": "¡Lleva al shinigami más famoso a tu colección con esta impresionante y detallada figura de Ryuk sosteniendo la Death Note!  \n Tamaño: Medida aproximada de 20 cm.   Detalles: Excelente acabado con alas, aretes y su icónica sonrisa siniestra.   \n⚡ Disponibilidad: ¡Entrega inmediata!"
   },
   {
@@ -93,6 +130,7 @@
     "nombre": "🧾 Figura Tanjiro Kamado (Hinokami Kagura) - Kimetsu no Yaiba (Entrega Inmediata)",
     "precio": 85000,
     "imagen": "productos/berserk-tomo-1/framebird-converted(1)/20261104_125049.webp, productos/berserk-tomo-1/framebird-converted(1)/20261104_125127.webp,",
+    "disponibilidad": "DISPONIBLE",
     "descripcion": "¡Añade al cazador de demonios más determinado a tu colección con esta figura de Tanjiro desatando la Danza del Dios del Fuego!   Tamaño: Medida aproximada de 25 cm.   Detalles: Incluye efectos translúcidos de fuego en su espada, base de soporte y viene con su caja original.   ⚡ Disponibilidad: ¡Entrega inmediata!"
   },
   {
@@ -101,6 +139,7 @@
     "nombre": "❤️ Figura Boa Hancock - One Piece (Entrega Inmediata)",
     "precio": 29000,
     "imagen": "productos/berserk-tomo-1/20261028_121818_5_11zon.webp, productos/berserk-tomo-1/20261028_121924_6_11zon.webp",
+    "disponibilidad": "DISPONIBLE",
     "descripcion": "❤️ Figura Boa Hancock - One Piece (Entrega Inmediata)\n¡Añade a la Emperatriz Pirata a tu colección con esta increíble figura! Con su icónica pose de desprecio y su característico abrigo de la Marine, es una pieza que se robará todas las miradas.   \nTamaño: Medida aproximada entre 12 cm y 20 cm.Detalles: \nExcelente acabado en su vestuario rojo y blanco con detalles dorados.   \n⚡ Disponibilidad: ¡Entrega inmediata! No esperes más para llevártela a casa."
   },
   {
@@ -109,6 +148,7 @@
     "nombre": "🧾 **Maqueta / Barco Going Merry - One Piece (Entrega Inmediata)**",
     "precio": 180000,
     "imagen": "productos/berserk-tomo-1/iloveimg-converted/20261104_180349.webp, productos/berserk-tomo-1/iloveimg-converted/20261106_114400.webp, productos/berserk-tomo-1/iloveimg-converted/20261106_115004.webp, productos/berserk-tomo-1/iloveimg-converted/20261106_115212.webp,  productos/berserk-tomo-1/iloveimg-converted/20261106_115216.webp,",
+    "disponibilidad": "DISPONIBLE",
     "descripcion": "* **Detalles:** Maqueta a escala del emblemático barco, incluye mástiles, velas, base de soporte y su **plancha de calcomanías originales**. **Viene sin pintar (requiere armado y pintura opcional)**.\r\n\r\n\r\n* **⚡ Disponibilidad:** **¡Entrega inmediata!**"
   },
   {
@@ -117,6 +157,7 @@
     "nombre": "SUNNY BARCO",
     "precio": 180000,
     "imagen": "productos/berserk-tomo-1/iloveimg-converted/20261106_121330.webp, productos/berserk-tomo-1/iloveimg-converted/20261106_123458.webp, productos/berserk-tomo-1/iloveimg-converted/20261106_123504.webp, productos/berserk-tomo-1/iloveimg-converted/20261106_123521.jpg, productos/berserk-tomo-1/iloveimg-converted/20261106_123538.jpg, productos/berserk-tomo-1/iloveimg-converted/20261106_123609.jpg, productos/berserk-tomo-1/iloveimg-converted/20261106_123620.jpg,",
+    "disponibilidad": "DISPONIBLE",
     "descripcion": "¡Lleva el imponente barco de los Sombrero de Paja en su versión del Nuevo Mundo a tu colección con esta increíble maqueta a escala de Bandai! \n  Detalles: Incluye mascarón de proa con cabeza de león/sol, mástiles, velas, pequeños botes/submarinos auxiliares, mini figuras de la tripulación y viene con su caja original. Piezas moldeadas en color (requiere armado y calcomanías opcionales).  \n⚡ Disponibilidad: ¡Entrega inmediata!"
   },
   {
@@ -125,6 +166,7 @@
     "nombre": "BERSECK DELUXE EDITION TOMO#1",
     "precio": 180000,
     "imagen": "productos/berserk-tomo-1/20261026_133959_1_11zon.webp, productos/berserk-tomo-1/20261026_134035_2_11zon.webp, productos/berserk-tomo-1/20261026_134719_4_11zon.webp, productos/berserk-tomo-1/20261026_134541_3_11zon.webp",
+    "disponibilidad": "POR ENCARGO",
     "descripcion": "Berserk - Deluxe Edition Vol. 1 (Por Encargo)¡La obra maestra oscura y legendaria de Kentaro Miura como se merece! Vive el inicio de esta historia brutal en una edición de lujo imperdible para tu colección."
   },
   {
@@ -133,6 +175,7 @@
     "nombre": "Hot Wheels - Hoto Roto (Entrega Inmediata)",
     "precio": 18000,
     "imagen": "productos/berserk-tomo-1/20261028_124426_7_11zon.webp",
+    "disponibilidad": "DISPONIBLE",
     "descripcion": "¡Un diseño agresivo y oscuro listo para acelerar en tu colección!   \nEstado: 🌟 Excelente, nuevo en su empaque original.\nDisponibilidad: ¡Entrega inmediata! No te quedes sin esta pieza de colección.   \nTodal mente original"
   },
   {
@@ -141,6 +184,7 @@
     "nombre": "Hot Wheels - Toyota Prius Custom (Entrega Inmediata)",
     "precio": 18000,
     "imagen": "productos/berserk-tomo-1/20261028_133329_8_11zon.webp",
+    "disponibilidad": "DISPONIBLE",
     "descripcion": "¡La versión más estilizada, deportiva y personalizada del famoso híbrido japonés!\n\n* **Estado:** 🌟 Excelente, blíster impecable.\n* **Disponibilidad:** **¡Entrega inmediata!** Ideal para los amantes del tuning y los JDM."
   },
   {
@@ -149,6 +193,7 @@
     "nombre": "Hot Wheels - Gotta Go (Entrega Inmediata)*",
     "precio": 18000,
     "imagen": "productos/berserk-tomo-1/20261028_133414_9_11zon.webp",
+    "disponibilidad": "DISPONIBLE",
     "descripcion": "Un clásico divertido con un diseño único, llamas clásicas y listo para la pista.\n* **Estado:** 🌟 Excelente, totalmente nuevo.\n* **Disponibilidad:** **¡Entrega inmediata!** \n¡Súmate a la velocidad!"
   },
   {
@@ -157,6 +202,7 @@
     "nombre": "Hot Wheels - Ford F-150 Lightning Supertruck (Entrega Inmediata)",
     "precio": 18000,
     "imagen": "productos/berserk-tomo-1/20261028_133546_10_11zon.webp",
+    "disponibilidad": "DISPONIBLE",
     "descripcion": "Pura potencia eléctrica y aerodinámica extrema llevada a las pistas.\n* **Estado:** 🌟 Excelente estado de conservación en su empaque.\n* **Disponibilidad:*¡Entrega inmediata!\nAñade esta bestia aerodinámica a tu repisa."
   },
   {
@@ -165,6 +211,7 @@
     "nombre": "Hot Wheels - Bugatti Bolide (Entrega Inmediata)",
     "precio": 18000,
     "imagen": "productos/berserk-tomo-1/20261028_134011_11_11zon.webp",
+    "disponibilidad": "DISPONIBLE",
     "descripcion": "La elegancia y velocidad inalcanzable de hiperdeportivo hechas a escala.\n* **Estado:** 🌟 Excelente, tarjeta y burbuja en perfecto estado.\n* **Disponibilidad:** **¡Entrega inmediata!** \nUna joya que no puede faltar con los gemelos de velocidad."
   },
   {
@@ -173,6 +220,7 @@
     "nombre": "🛞Hot Wheels - Carrito Clásico Translúcido (Entrega Inmediata)",
     "precio": 18000,
     "imagen": "productos/berserk-tomo-1/20261028_134855_13_11zon.webp, productos/berserk-tomo-1/20261028_134525_12_11zon.webp",
+    "disponibilidad": "DISPONIBLE",
     "descripcion": "Un diseño llamativo con cuerpo translúcido y detalles mecánicos expuestos que se robará las miradas en tu repisa.\n\nEstado🌟 Excelente, muy bien cuidado.\nProtección:¡Incluye su cajita de protección acrílica!** 🛡️\n⚡ Disponibilidad:¡Entrega inmediata!"
   },
   {
@@ -181,6 +229,7 @@
     "nombre": "Hot Wheels '67 Lotus Type 49 (Entrega Inmediata)",
     "precio": 22000,
     "imagen": "productos/berserk-tomo-1/20261028_135107_15_11zon.webp, productos/berserk-tomo-1/20261028_135048_14_11zon.webp, productos/berserk-tomo-1/20261028_135122_16_11zon.webp",
+    "disponibilidad": "DISPONIBLE",
     "descripcion": "Pura historia del automovilismo en miniatura, con los colores clásicos de competencia y el número 4.\n\n* **Estado:** 🌟 Excelente estado de conservación.\n* **Protección:** **¡Incluye su cajita de protección acrílica!** 🛡️\n* **⚡ Disponibilidad:** **¡Entrega inmediata!**"
   },
   {
@@ -189,6 +238,7 @@
     "nombre": "Hot Wheels - Van Temática de Rick y Morty (Entrega Inmediata)",
     "precio": 90000,
     "imagen": "productos/berserk-tomo-1/20261028_135255_18_11zon.webp, productos/berserk-tomo-1/20261028_135251_17_11zon.webp, productos/berserk-tomo-1/20261028_135301_19_11zon.webp,",
+    "disponibilidad": "DISPONIBLE",
     "descripcion": "¡Ideal para los fans del multiverso! Una van cargada de detalles espaciales y referencias icónicas de la serie.\n\n* **Estado:** 🌟 Excelente, lista para exhibir.\n* **Protección:** **¡Incluye su cajita de protección acrílica!** 🛡️\n* **⚡ Disponibilidad:** **¡Entrega inmediata!**"
   },
   {
@@ -197,6 +247,7 @@
     "nombre": "Hot Wheels Layin' Lowrider (Entrega Inmediata)",
     "precio": 20000,
     "imagen": "productos/berserk-tomo-1/20261028_140840_20_11zon.webp, productos/berserk-tomo-1/20261028_140945_21_11zon.webp, productos/berserk-tomo-1/20261028_141047_22_11zon.webp",
+    "disponibilidad": "DISPONIBLE",
     "descripcion": "Un clásico americano con acabado dorado brillante, motor expuesto y un diseño de llamas laterales brutal.\n\n* **Estado:** 🌟 Excelente estado general y rines deportivos llamativos.\n\n\n* **Protección:** **¡Incluye su cajita de protección acrílica!** 🛡️\n* **⚡ Disponibilidad:** **¡Entrega inmediata!**"
   },
   {
@@ -205,6 +256,7 @@
     "nombre": "Hot Wheels Birthday Burner  (Entrega Inmediata)",
     "precio": 18000,
     "imagen": "productos/berserk-tomo-1/20261028_141126_23_11zon.webp, productos/berserk-tomo-1/20261028_141200_25_11zon.webp, productos/berserk-tomo-1/20261028_141154_24_11zon.webp",
+    "disponibilidad": "DISPONIBLE",
     "descripcion": "Una pieza súper original y colorida con diseño estilo arte urbano, llantas rosas y un frente con mucha personalidad.\n\n* **Estado:** 🌟 Excelente, pieza única y llamativa.\n\n\n* **Protección:** **¡Incluye su cajita de protección acrílica!** 🛡️\n* **⚡ Disponibilidad:** **¡Entrega inmediata!**"
   },
   {
@@ -213,14 +265,16 @@
     "nombre": "Baki hanma figura",
     "precio": 70000,
     "imagen": "productos/berserk-tomo-1/framebird-converted/20261104_124435.webp, productos/berserk-tomo-1/framebird-converted/20261104_124445.webp, productos/berserk-tomo-1/framebird-converted(1)/20261104_124448.webp",
+    "disponibilidad": "DISPONIBLE",
     "descripcion": "Ffigura de Ohma Tokita en pose de combate!   Detalles: Excelente acabado muscular y postura de pelea.   \n⚡ Disponibilidad: ¡Entrega inmediata!"
   },
   {
     "id": "ANI-276",
     "categoria": "Figura",
-    "nombre": "🧾 Figura Monkey D. Luffy (Kimono / Wano) - One Piece (Entrega Inmediata)",
+    "nombre": "1",
     "precio": 28000,
     "imagen": "productos/berserk-tomo-1/framebird-converted(1)/20261104_125520.webp, productos/berserk-tomo-1/framebird-converted(1)/20261104_125524.webp, productos/berserk-tomo-1/framebird-converted(1)/20261104_125531.webp",
+    "disponibilidad": "DISPONIBLE",
     "descripcion": "¡Lleva al futuro Rey de los Piratas con su tradicional atuendo de Wano a tu colección!   Detalles: Excelente acabado con kimono rojo de patrones hexagonales y base de soporte.\nDisponibilidad: ¡Entrega inmediata!"
   },
   {
@@ -229,6 +283,7 @@
     "nombre": "🧾 Figura Admiral Ryokugyu / Aramaki - One Piece (Entrega Inmediata)",
     "precio": 28000,
     "imagen": "productos/berserk-tomo-1/framebird-converted(1)/20261104_125406.webp, productos/berserk-tomo-1/framebird-converted(1)/20261104_125409.webp, productos/berserk-tomo-1/framebird-converted(1)/20261104_125443.webp",
+    "disponibilidad": "DISPONIBLE",
     "descripcion": "¡Lleva al temible Almirante de la Marine a tu colección con esta figura en pose desafiante!   Tamaño: Medida aproximada de 20 cm.   \nDetalles: Excelente acabado con su característico abrigo blanco de la Marine sobre los hombros, gafas oscuras y su espada.   \n⚡ Disponibilidad: ¡Entrega inmediata!"
   },
   {
@@ -237,6 +292,7 @@
     "nombre": "Ronronoa Zoro Arcco de los tiempo del santo temporal",
     "precio": 28000,
     "imagen": "productos/berserk-tomo-1/framebird-converted-(1)/20261104_131949.webp, productos/berserk-tomo-1/framebird-converted-(1)/20261104_131952.webp, productos/berserk-tomo-1/framebird-converted-(1)/20261104_132141.webp",
+    "disponibilidad": "DISPONIBLE",
     "descripcion": "🧾 Figura Roronoa Zoro - One Piece (Entrega Inmediata)\n\n¡Añade al espadachín de los Sombrero de Paja a tu colección con esta figura de Zoro en pose de combate con sus katanas!\n\nDetalles: Excelente acabado con su atuendo clásico, cicatriz en el torso y sus tres espadas listas.\n\n⚡ Disponibilidad: ¡Entrega inmediata!"
   },
   {
@@ -245,6 +301,7 @@
     "nombre": "🧾 Figura Super Saiyan Son Gohan - Dragon Ball Z (Entrega Inmediata)",
     "precio": 160000,
     "imagen": "productos/berserk-tomo-1/framebird-converted-(1)/20261104_134420.webp, productos/berserk-tomo-1/framebird-converted-(1)/20261104_134422.webp, productos/berserk-tomo-1/framebird-converted-(1)/20261104_135126.webp, productos/berserk-tomo-1/framebird-converted-(1)/20261104_135256.webp, \nproductos/berserk-tomo-1/framebird-converted-(1)/20261104_174247.webp,",
+    "disponibilidad": "DISPONIBLE",
     "descripcion": "¡Lleva al legendario guerrero Z a tu colección con esta figura articulada de Gohan Super Saiyan!\n\nDetalles: Incluye múltiples rostros intercambiables, manos adicionales, accesorios y viene con su caja original.\n\n⚡ Disponibilidad: ¡Entrega inmediata!"
   },
   {
@@ -253,6 +310,7 @@
     "nombre": "🧾 Figura Frieza Fourth Form - Dragon Ball Z (Entrega Inmediata)",
     "precio": 160000,
     "imagen": "productos/berserk-tomo-1/framebird-converted-(1)/20261104_175135.webp, productos/berserk-tomo-1/framebird-converted-(1)/20261104_175142.webp, \nproductos/berserk-tomo-1/framebird-converted-(1)/20261104_175150.webp, productos/berserk-tomo-1/framebird-converted-(1)/20261104_175328.webp, productos/berserk-tomo-1/framebird-converted-(1)/20261104_175421.webp,",
+    "disponibilidad": "DISPONIBLE",
     "descripcion": "¡Añade al emperador del mal a tu colección con esta figura articulada de Freezer en su cuarta forma!\n\nDetalles: Incluye rostros y manos intercambiables, efectos de energía y viene con su caja original.\n\n⚡ Disponibilidad: ¡Entrega inmediata!"
   },
   {
@@ -261,6 +319,7 @@
     "nombre": "🧾 Peluche Woody - Toy Story (Entrega Inmediata)",
     "precio": 40000,
     "imagen": "productos/berserk-tomo-1/framebird-converted/20261104_123545.webp, productos/berserk-tomo-1/framebird-converted/20261104_123548.webp, productos/berserk-tomo-1/framebird-converted/20261104_123607.webp",
+    "disponibilidad": "DISPONIBLE",
     "descripcion": "¡Lleva toda la diversión y la nostalgia de Toy Story a tu hogar con este tierno peluche del comisario Woody! Con su clásico sombrero marrón, su pañuelo rojo y sus detalles bordados en el rostro y la camisa, es el compañero ideal para cualquier fan de la película.\n\n* **Detalles:** Excelente acabado con costuras y bordados de alta calidad en su diseño tradicional.\n\n\n* **⚡ Disponibilidad:** **¡Entrega inmediata!**"
   },
   {
@@ -269,6 +328,7 @@
     "nombre": "🧾 Peluche Donatello - Tortugas Ninja (Entrega Inmediata)",
     "precio": 32000,
     "imagen": "productos/berserk-tomo-1/framebird-converted/20261104_123656.webp, productos/berserk-tomo-1/framebird-converted/20261104_123705.webp",
+    "disponibilidad": "DISPONIBLE",
     "descripcion": "¡Lleva la acción y la genialidad del equipo a tu casa con este tierno y detallado peluche de Donatello! Con su icónico antifaz morado, su característico caparazón y su bastón bo de combate, es una pieza fantástica para cualquier fan de las Tortugas Ninja.\n\nDetalles:** Excelente acabado de alta calidad con costuras y bordados fieles al personaje, incluyendo su arma distintiva.\n\n\n⚡ Disponibilidad:** **¡Entrega inmediata!** ¡Añádelo ya a tu colección y defiende la ciudad!"
   },
   {
@@ -277,6 +337,7 @@
     "nombre": "🧾 Peluche Raphael - Tortugas Ninja (Entrega Inmediata)",
     "precio": 32000,
     "imagen": "productos/berserk-tomo-1/framebird-converted/20261104_123731.webp, productos/berserk-tomo-1/framebird-converted/20261104_123748.webp",
+    "disponibilidad": "DISPONIBLE",
     "descripcion": "¡Dale toda la actitud y la fuerza del equipo a tu colección con este tierno pero rudo peluche de Raphael! Con su icónico antifaz rojo, su característico caparazón y sus dos sai de combate en las manos, es una pieza perfecta para cualquier fan de la clásica serie.\n\n* **Detalles:** Excelente acabado de alta calidad con costuras y bordados fieles al personaje, incluyendo sus armas distintivas.\n\n\n⚡ Disponibilidad:** **¡Entrega inmediata!**"
   },
   {
@@ -285,6 +346,34 @@
     "nombre": "🧾 **Figura Kyojuro Rengoku - Kimetsu no Yaiba (Entrega Inmediata)**",
     "precio": 38000,
     "imagen": "productos/berserk-tomo-1/framebird-converted-(1)/20261104_133519.webp, productos/berserk-tomo-1/framebird-converted-(1)/20261104_133525.webp",
+    "disponibilidad": "DISPONIBLE",
     "descripcion": "¡Lleva al Pilar de la Llama a tu colección con esta divertida figura de Rengoku disfrutando de unos onigiri!\r\n\r\n* **Detalles:** Excelente acabado con su uniforme de cazador, su haori característico y los🍙 onigiri en las manos.\r\n* **⚡ Disponibilidad:** **¡Entrega inmediata!**"
+  },
+  {
+    "id": "ANI-308",
+    "categoria": "Accesorios",
+    "nombre": "🧾 Lápizero enitsu Agatsuma - Kimetsu no Yaiba",
+    "precio": 10000,
+    "imagen": "productos/berserk-tomo-1/teto3/20261112_171554.webp, \nproductos/berserk-tomo-1/teto3/20261112_171654.webp, \nproductos/berserk-tomo-1/teto3/20261112_171658.webp,",
+    "disponibilidad": "DISPONIBLE",
+    "descripcion": "Descripción: Lápiz coleccionable temática de Zenitsu Agatsuma con diseño de su haori y personajes de la serie.\n\n    Detalles: Excelente acabado con impresión nítida, capuchón protector y diseño ergonómico para uso diario o colección, ademas trae puntas de cambio"
+  },
+  {
+    "id": "ANI-312",
+    "categoria": "Figura",
+    "nombre": "🧾 Figura Nezuko Kamado (Forma Despertada / Demonio) - Kimetsu no Yaiba",
+    "precio": 60000,
+    "imagen": "productos/berserk-tomo-1/teto2 figura_34.heic.webp, \nproductos/berserk-tomo-1/teto3/figura_35.heic.webp,",
+    "disponibilidad": "DISPONIBLE",
+    "descripcion": "*Descripción:** Figura coleccionable de Nezuko Kamado en su forma avanzada con su larga cabellera con puntas rojas y pose sentada sobre su caja de transporte.\n\nDetalles:** Excelente acabado con el diseño detallado de su cabello ondeando y su atuendo de demonio."
+  },
+  {
+    "id": "ANI-314",
+    "categoria": "Accesorios",
+    "nombre": "🧾 Peluche Batman - DC Comics / Justice League",
+    "precio": 28000,
+    "imagen": "productos/berserk-tomo-1/teto3/figura_42.heic.webp,\nproductos/berserk-tomo-1/teto3/figura_43.heic.webp, \nproductos/berserk-tomo-1/teto3/figura_44.heic.webp,",
+    "disponibilidad": "DISPONIBLE",
+    "descripcion": "Descripción: Peluche coleccionable de Batman con diseño estilizado y tierno, vistiendo su clásico traje oscuro con el símbolo del murciélago en el pecho y la capa característica.\n\nDetalles: Excelente acabado con material de felpa suave, detalles bordados y costuras resistentes."
   }
 ]
