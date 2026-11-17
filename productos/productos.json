@@ -81,6 +81,15 @@
     "descripcion": "¡Añade al hechicero más poderoso a tu colección con esta figura de Gojo haciendo su clásica pose!   Tamaño: Medida aproximada de 22 cm.   \nDetalles: Excelente acabado con su uniforme oscuro y venda en los ojos.   \n⚡ Disponibilidad: ¡Entrega inmediata!"
   },
   {
+    "id": "ANI-173",
+    "categoria": "Figura",
+    "nombre": "🧾 Figura Monkey D. Luffy Gear 5 (Versión Especial) - One Piece",
+    "precio": 60000,
+    "imagen": "productos/berserk-tomo-1/teto4/figura_166.heic.webp, \nproductos/berserk-tomo-1/teto4/figura_167.heic.webp, \nproductos/berserk-tomo-1/teto4/figura_168.heic.webp,",
+    "disponibilidad": "DISPONIBLE",
+    "descripcion": "Descripción: Figura coleccionable de Monkey D. Luffy en su poderosa y dinámica transformación de Gear 5 con efectos translúcidos y pose de combate.\n\nDetalles: Excelente acabado, gran nivel de detalle en la escultura, efectos de poder translúcidos y base temática rocosa con estela de humo."
+  },
+  {
     "id": "ANI-179",
     "categoria": "Figura",
     "nombre": "🧾 Figura Kozuki Oden - One Piece (Entrega Inmediata)",
@@ -90,12 +99,22 @@
     "descripcion": "¡Lleva al legendario samurái de Wano a tu colección con esta figura de Oden!  \n Detalles: Excelente acabado con su tradicional atuendo marrón, la soga característica en la espalda y su expresión decidida.   \n⚡ Disponibilidad: ¡Entrega inmediata!"
   },
   {
+    "id": "ANI-182",
+    "categoria": "Figura",
+    "nombre": "🧾 Figura Goku Niño en Nube Voladora - Dragon Ball",
+    "precio": 0,
+    "imagen": "productos/berserk-tomo-1/teto4/figura_163.heic.webp, \nproductos/berserk-tomo-1/teto4/figura_164.heic.webp, \nproductos/berserk-tomo-1/teto4/figura_165.heic.webp,",
+    "disponibilidad": "DISPONIBLE",
+    "descripcion": "Descripción: Figura coleccionable de Goku en su etapa de niño, sentado alegremente sobre la Nube Voladora y sosteniendo la Esfera del Dragón.\n\nDetalles: Excelente acabado con detalles coloridos, expresión tierna clásica y base temática de nube."
+  },
+  {
     "id": "ANI-185",
     "categoria": "Figura",
-    "nombre": "Figura de zoro cabezas intercambiables, que cambia una base pequeña y las espadas",
+    "nombre": "productos/berserk-tomo-1/teto4/figura_169.heic.webp, \nproductos/berserk-tomo-1/teto2/figura_33.heic.webp, \nproductos/berserk-tomo-1/teto4/figura_187.heic.webp, \nproductos/berserk-tomo-1/teto4/figura_188.heic.webp, \nproductos/berserk-tomo-1/teto4/figura_189.heic.webp, \n",
     "precio": 120000,
-    "imagen": "productos/berserk-tomo-1/teto2/figura_33.heic.webp,",
-    "disponibilidad": "DISPONIBLE"
+    "imagen": "productos/berserk-tomo-1/teto4/figura_169.heic.webp, \nproductos/berserk-tomo-1/teto2/figura_33.heic.webp,",
+    "disponibilidad": "DISPONIBLE",
+    "descripcion": "Descripción: Figura coleccionable de Roronoa Zoro con su clásico atuendo y katanas, diseñada con partes intercambiables para personalizar su postura y aspecto.\n\nDetalles: Excelente acabado con múltiples accesorios incluidos, como cabeza intercambiable y piezas adicionales para exhibición dinámica."
   },
   {
     "id": "ANI-186",
@@ -350,13 +369,67 @@
     "descripcion": "¡Lleva al Pilar de la Llama a tu colección con esta divertida figura de Rengoku disfrutando de unos onigiri!\r\n\r\n* **Detalles:** Excelente acabado con su uniforme de cazador, su haori característico y los🍙 onigiri en las manos.\r\n* **⚡ Disponibilidad:** **¡Entrega inmediata!**"
   },
   {
+    "id": "ANI-302",
+    "categoria": "Accesorios",
+    "nombre": " 🧾 Gorro / Blúmer Homero Simpson (Just Do It?)   ",
+    "precio": 22000,
+    "imagen": "productos/berserk-tomo-1/teto3/gorrito de homero chino 3.webp,",
+    "disponibilidad": "DISPONIBLE",
+    "descripcion": "Descripción: Gorro de lana gris con diseño bordado/estampado de Homero Simpson durmiendo sobre el logo con la frase \"Just Do It?\".   \nDetalles: Excelente acabado, tela suave y abrigada, ideal para uso diario o colección."
+  },
+  {
+    "id": "ANI-303",
+    "categoria": "Accesorios",
+    "nombre": "🧾 Bolígrafo Multicolor Harry Potter",
+    "precio": 10000,
+    "imagen": "productos/berserk-tomo-1/teto3/figura_66.heic.webp, \nproductos/berserk-tomo-1/teto3/figura_67.heic.webp,",
+    "disponibilidad": "DISPONIBLE",
+    "descripcion": "Descripción: Bolígrafo coleccionable multi-tinta de Harry Potter con diseño impreso de los personajes y una figura decorativa en la parte superior.\n\nDetalles: Excelente acabado, diseño ergonómico y múltiples colores de tinta seleccionables en un solo bolígrafo."
+  },
+  {
+    "id": "ANI-304",
+    "categoria": "Accesorios",
+    "nombre": "🧾 Lapiz / con borrador integrado Pochacco - Sanrio",
+    "precio": 9500,
+    "imagen": "productos/berserk-tomo-1/teto3/figura_52.heic.webp, \nproductos/berserk-tomo-1/teto3/figura_53.heic.webp, \nproductos/berserk-tomo-1/teto3/figura_54.heic.webp,",
+    "disponibilidad": "DISPONIBLE",
+    "descripcion": "Descripción: Lápiz infinito coleccionable de Pochacco con diseño temático y detalles coloridos del querido personaje de Sanrio.\n\nDetalles: Excelente acabado, diseño ergonómico y punta especial sin tinta que permite escribir de forma continua sin necesidad de sacar punta."
+  },
+  {
+    "id": "ANI-305",
+    "categoria": "Accesorios",
+    "nombre": "🧾 Lápiz Infinito Pompompurin - Sanrio",
+    "precio": 9500,
+    "imagen": "productos/berserk-tomo-1/teto3/figura_63.heic.webp, \nproductos/berserk-tomo-1/teto3/figura_64.heic.webp,\nproductos/berserk-tomo-1/teto3/figura_65.heic.webp,",
+    "disponibilidad": "DISPONIBLE",
+    "descripcion": "Descripción: Lápiz infinito coleccionable de Pompompurin con diseño en tono amarillo/crema e ilustraciones del adorable perrito de Sanrio.\n\nDetalles: Excelente acabado, diseño ergonómico y punta especial sin tinta que permite escribir de forma continua sin necesidad de sacar punta."
+  },
+  {
+    "id": "ANI-306",
+    "categoria": "Accesorios",
+    "nombre": "🧾 Lápiz Infinito My Melody - Sanrio",
+    "precio": 9500,
+    "imagen": "productos/berserk-tomo-1/teto3/figura_60.heic.webp, \nproductos/berserk-tomo-1/teto3/figura_62.heic.webp",
+    "disponibilidad": "DISPONIBLE",
+    "descripcion": "Descripción: Lápiz infinito coleccionable de My Melody con diseño en tono rosa pastel e ilustraciones temáticas del tierno personaje de Sanrio.\n\nDetalles: Excelente acabado, diseño ergonómico y punta especial sin tinta que permite escribir de forma continua sin necesidad de sacar punta."
+  },
+  {
     "id": "ANI-308",
     "categoria": "Accesorios",
-    "nombre": "🧾 Lápizero enitsu Agatsuma - Kimetsu no Yaiba",
+    "nombre": "🧾 Lápizero zenitsu Agatsuma - Kimetsu no Yaiba",
     "precio": 10000,
-    "imagen": "productos/berserk-tomo-1/teto3/20261112_171554.webp, \nproductos/berserk-tomo-1/teto3/20261112_171654.webp, \nproductos/berserk-tomo-1/teto3/20261112_171658.webp,",
+    "imagen": "productos/berserk-tomo-1/teto3/20261112_171554.webp, \nproductos/berserk-tomo-1/teto3/20261112_171654.webp, \nproductos/berserk-tomo-1/teto3/20261112_171658.webp, \nproductos/berserk-tomo-1/teto3/figura_47.heic.webp,",
     "disponibilidad": "DISPONIBLE",
     "descripcion": "Descripción: Lápiz coleccionable temática de Zenitsu Agatsuma con diseño de su haori y personajes de la serie.\n\n    Detalles: Excelente acabado con impresión nítida, capuchón protector y diseño ergonómico para uso diario o colección, ademas trae puntas de cambio"
+  },
+  {
+    "id": "ANI-307",
+    "categoria": "Accesorios",
+    "nombre": "🧾 Lápiz Infinito Pochacco - Sanrio",
+    "precio": 9500,
+    "imagen": "productos/berserk-tomo-1/teto3/figura_55.heic.webp, \nproductos/berserk-tomo-1/teto3/figura_56.heic.webp,",
+    "disponibilidad": "DISPONIBLE",
+    "descripcion": "Descripción: Lápiz infinito coleccionable de Pochacco con diseño temático y detalles coloridos del querido personaje de Sanrio.\n\nDetalles: Excelente acabado, diseño ergonómico y punta especial sin tinta que permite escribir de forma continua sin necesidad de sacar punta."
   },
   {
     "id": "ANI-312",
@@ -375,5 +448,86 @@
     "imagen": "productos/berserk-tomo-1/teto3/figura_42.heic.webp,\nproductos/berserk-tomo-1/teto3/figura_43.heic.webp, \nproductos/berserk-tomo-1/teto3/figura_44.heic.webp,",
     "disponibilidad": "DISPONIBLE",
     "descripcion": "Descripción: Peluche coleccionable de Batman con diseño estilizado y tierno, vistiendo su clásico traje oscuro con el símbolo del murciélago en el pecho y la capa característica.\n\nDetalles: Excelente acabado con material de felpa suave, detalles bordados y costuras resistentes."
+  },
+  {
+    "id": "ANI-315",
+    "categoria": "Accesorios",
+    "nombre": "🧾 Peluche Spider-Man - Marvel / Avengers",
+    "precio": 28000,
+    "imagen": "productos/berserk-tomo-1/teto3/figura_45.heic.webp, \nproductos/berserk-tomo-1/teto3/figura_46.heic.webp,",
+    "disponibilidad": "DISPONIBLE",
+    "descripcion": "Descripción: Peluche coleccionable de Spider-Man con diseño estilizado y tierno, vistiendo su clásico traje rojo y azul con el detalle de la araña en el pecho.\n\nDetalles: Excelente acabado con material de felpa suave, detalles bordados y costuras resistentes."
+  },
+  {
+    "id": "ANI-316",
+    "categoria": "Figura",
+    "nombre": "🧾 Figura Deadpool - X-Men",
+    "precio": 140000,
+    "imagen": "productos/berserk-tomo-1/teto3/figura_48.heic.webp, \nproductos/berserk-tomo-1/teto3/figura_49.heic.webp. \nproductos/berserk-tomo-1/teto3/figura_50.heic.webp, \nproductos/berserk-tomo-1/teto3/figura_51.heic.webp,",
+    "disponibilidad": "DISPONIBLE",
+    "descripcion": "Descripción: Figura coleccionable de Deadpool totalmente articulada con su clásico traje rojo y negro.\n\nDetalles: Excelente acabado e incluye múltiples accesorios en su empaque de blíster, tales como manos intercambiables, rostros adicionales y katanas."
+  },
+  {
+    "id": "ANI-317",
+    "categoria": "ANIME",
+    "nombre": "🧾 Figura Okarun / Ken Takakura (Transformado) - Dandadan",
+    "precio": 45000,
+    "imagen": "productos/berserk-tomo-1/teto4/figura_171.heic.webp,",
+    "disponibilidad": "DISPONIBLE",
+    "descripcion": "Descripción: Figura coleccionable de Okarun en su estado maldito/transformado de la exitosa serie Dandadan, vistiendo su clásica camisa blanca y pantalón oscuro con detalles de poder y su postura característica.\n\nDetalles: Excelente acabado, gran nivel de detalle en el esculpido del cabello, los rasgos malditos y los accesorios de la transformación."
+  },
+  {
+    "id": "ANI-318",
+    "categoria": "Figura",
+    "nombre": "🧾 Figura Denji - Chainsaw Man",
+    "precio": 50000,
+    "imagen": "productos/berserk-tomo-1/teto4/figura_173.heic.webp,",
+    "disponibilidad": "DISPONIBLE",
+    "descripcion": "Descripción: Figura coleccionable de Denji vistiendo su uniforme de Cazador de Demonios de Seguridad Pública con camisa formal, corbata y pantalones oscuros.\n\nDetalles: Excelente acabado con expresión dinámica y pose característica lista para la acción."
+  },
+  {
+    "id": "ANI-319",
+    "categoria": "Figura",
+    "nombre": "🧾 Figura Power - Chainsaw Man",
+    "precio": 50000,
+    "imagen": "productos/berserk-tomo-1/teto4/figura_176.heic.webp",
+    "disponibilidad": "DISPONIBLE",
+    "descripcion": "Descripción: Figura coleccionable del Demonio de la Sangre Power, vistiendo su uniforme de Cazadora de Demonios con chaqueta azul abierta y sus icónicos cuernos rojos.\n\nDetalles: Excelente acabado, gran detalle en el cabello rubio, expresión segura y pose dinámica característica del personaje."
+  },
+  {
+    "id": "ANI-320",
+    "categoria": "Figura",
+    "nombre": "🧾 Figura Chainsaw Man / Denji (Forma de Demonio)",
+    "precio": 50000,
+    "imagen": "productos/berserk-tomo-1/teto4/figura_178.heic.webp, \nproductos/berserk-tomo-1/teto4/figura_179.heic.webp,",
+    "disponibilidad": "DISPONIBLE",
+    "descripcion": "Descripción: Figura coleccionable del Demonio Motosierra en su forma híbrida de combate, mostrando las icónicas cuchillas en su cabeza y brazos con detalles de sangre y su postura característica.\n\nDetalles: Excelente acabado, gran nivel de detalle en el esculpido de las motosierras y pintura realista con efectos de batalla."
+  },
+  {
+    "id": "ANI-321",
+    "categoria": "Figura",
+    "nombre": "🧾 Figura Sagitario / Aioros o Seiya (Armadura Dorada) - Saint Seiya",
+    "precio": 25000,
+    "imagen": "productos/berserk-tomo-1/teto4/figura_180.heic.webp, \nproductos/berserk-tomo-1/teto4/figura_181.heic.webp,",
+    "disponibilidad": "DISPONIBLE",
+    "descripcion": "Descripción: Figura coleccionable de un caballero con la emblemática Armadura Dorada y su capa característica de la clásica serie Saint Seiya (Los Caballeros del Zodíaco).\n\nDetalles: Excelente acabado con detalles metalizados en la armadura, diseño fiel al anime y pose imponente para exhibición."
+  },
+  {
+    "id": "ANI-322",
+    "categoria": "Figura",
+    "nombre": "🧾 Figura Trunks Super Saiyajin (Capsule Corp.) - Dragon Ball",
+    "precio": 80000,
+    "imagen": "productos/berserk-tomo-1/teto4/figura_182.heic.webp,",
+    "disponibilidad": "DISPONIBLE",
+    "descripcion": "Descripción: Figura coleccionable de Trunks en su transformación Super Saiyajin, vistiendo la clásica camiseta de Capsule Corp. y pantalones grises en una intensa pose de poder.\n\nDetalles: Excelente acabado, gran nivel de detalle en la escultura y expresión del personaje, e incluye cabeza intercambiable para personalizar la exhibición."
+  },
+  {
+    "id": "ANI-323",
+    "categoria": "Figura",
+    "nombre": "🧾 Figura Yuji Itadori (Puño Divergente / Energía Maldita) - Jujutsu Kaisen",
+    "precio": 65000,
+    "imagen": "productos/berserk-tomo-1/teto4/figura_184.heic.webp, \nproductos/berserk-tomo-1/teto4/figura_185.heic.webp,",
+    "disponibilidad": "DISPONIBLE",
+    "descripcion": "Descripción: Figura coleccionable de Yuji Itadori en una dinámica pose de combate, ejecutando su técnica con efectos translúcidos de energía maldita alrededor de su puño.\n\nDetalles: Excelente acabado, gran nivel de detalle en el esculpido del personaje y base de soporte incluida para exhibición."
   }
 ]
