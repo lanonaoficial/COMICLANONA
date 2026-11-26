@@ -112,7 +112,7 @@
     "categoria": "Figura",
     "nombre": "🧾 Figura Roronoa Zoro (Con Accesorios Intercambiables) - One Piece",
     "precio": 120000,
-    "imagen": "\"productos/berserk-tomo-1/teto4/figura_169.heic.webp, \nproductos/berserk-tomo-1/teto2/figura_33.heic.webp, \nproductos/berserk-tomo-1/teto4/figura_187.heic.webp, \nproductos/berserk-tomo-1/teto4/figura_188.heic.webp, \nproductos/berserk-tomo-1/teto4/figura_189.heic.webp, \n\"",
+    "imagen": "productos/berserk-tomo-1/teto4/figura_169.heic.webp, \nproductos/berserk-tomo-1/teto2/figura_33.heic.webp, \nproductos/berserk-tomo-1/teto4/figura_187.heic.webp, \nproductos/berserk-tomo-1/teto4/figura_188.heic.webp, \nproductos/berserk-tomo-1/teto4/figura_189.heic.webp,",
     "disponibilidad": "DISPONIBLE",
     "descripcion": "Descripción: Figura coleccionable de Roronoa Zoro con su clásico atuendo y katanas, diseñada con partes intercambiables para personalizar su postura y aspecto.\n\nDetalles: Excelente acabado con múltiples accesorios incluidos, como cabeza intercambiable y piezas adicionales para exhibición dinámica."
   },
@@ -133,6 +133,15 @@
     "imagen": "productos/berserk-tomo-1/iloveimg-converted/20261110_085950.jpg,  productos/berserk-tomo-1/iloveimg-converted/20261110_092902.jpg, productos/berserk-tomo-1/iloveimg-converted/20261110_093053.jpg, productos/berserk-tomo-1/iloveimg-converted/20261110_093115.jpg, productos/berserk-tomo-1/iloveimg-converted/20261110_093503.jpg, productos/berserk-tomo-1/iloveimg-converted/20261110_093923.jpg,",
     "disponibilidad": "DISPONIBLE",
     "descripcion": "¡Añade al espadachín de los Sombrero de Paja sentado en su trono a tu colección!\n\nDetalles: Figura de alta calidad, incluye rostro intercambiable adicional, espada desenvainada, espada con efecto de fuego en base y calabaza de sake.\n\n⚡ Disponibilidad: ¡Entrega inmediata!"
+  },
+  {
+    "id": "ANI-188",
+    "categoria": "Figura",
+    "nombre": "🧾 Figura Monkey D. Luffy (Trono) - One Piece (Entrega Inmediata)",
+    "precio": 130000,
+    "imagen": "productos/berserk-tomo-1/teto5/figura_212.heic.webp, \nproductos/berserk-tomo-1/teto5/figura_213.heic.wdep,\nproductos/berserk-tomo-1/teto5/figura_214.heic.webp,\nproductos/berserk-tomo-1/teto5/figura_215.heic.webp, \nproductos/berserk-tomo-1/teto5/figura_216.heic.webp, \nproductos/berserk-tomo-1/teto5/figura_217.heic.webp,",
+    "disponibilidad": "DISPONIBLE",
+    "descripcion": "Descripción: Figura coleccionable de excelente acabado. Representa al futuro Rey de los Piratas sentado sobre un cofre-trono, luciendo su característico sombrero de paja y la cicatriz en el pecho.\n\nDetalles: Incluye 2 manos intercambiables y 1 rostro intercambiable adicional.\n\n⚡ Disponibilidad: ¡Entrega inmediata!"
   },
   {
     "id": "ANI-189",
@@ -192,7 +201,7 @@
     "id": "ANI-265",
     "categoria": "Accesorios",
     "nombre": "Hot Wheels - Hoto Roto (Entrega Inmediata)",
-    "precio": 18000,
+    "precio": 17999,
     "imagen": "productos/berserk-tomo-1/20261028_124426_7_11zon.webp",
     "disponibilidad": "AGOTADO",
     "descripcion": "¡Un diseño agresivo y oscuro listo para acelerar en tu colección!   \nEstado: 🌟 Excelente, nuevo en su empaque original.\nDisponibilidad: ¡Entrega inmediata! No te quedes sin esta pieza de colección.   \nTodal mente original"
@@ -369,6 +378,69 @@
     "descripcion": "¡Lleva al Pilar de la Llama a tu colección con esta divertida figura de Rengoku disfrutando de unos onigiri!\r\n\r\n* **Detalles:** Excelente acabado con su uniforme de cazador, su haori característico y los🍙 onigiri en las manos.\r\n* **⚡ Disponibilidad:** **¡Entrega inmediata!**"
   },
   {
+    "id": "ANI-289",
+    "categoria": "Figura",
+    "nombre": "🧾 Figura Rudo / Personaje - Gachiakuta",
+    "precio": 110000,
+    "imagen": "productos/berserk-tomo-1/teto7/figura_19.webp, \nproductos/berserk-tomo-1/teto7/figura_20.webp, \nproductos/berserk-tomo-1/teto7/figura_21.webp,",
+    "disponibilidad": "DISPONIBLE",
+    "descripcion": "Descripción: Figura coleccionable del anime y manga Gachiakuta con diseño detallado y vestimenta característica.\n\nDetalles: Viene con su caja original de presentación.\n\n⚡ Disponibilidad: ¡Entrega inmediata!"
+  },
+  {
+    "id": "ANI-290",
+    "categoria": "Figura",
+    "nombre": "🧾 Figura Nezuko Kamado (Versión Sedente / Noodle Stopper Style) - Demon Slayer: Kimetsu no Yaiba",
+    "precio": 45000,
+    "imagen": "productos/berserk-tomo-1/teto6/figura_01.heic.webp, \nproductos/berserk-tomo-1/teto6/figura_02.heic.webp,",
+    "disponibilidad": "DISPONIBLE",
+    "descripcion": "Descripción: Figura coleccionable de Nezuko Kamado sentada en pose tierna mientras sostiene un trozo de bambú, luciendo su característico kimono rosa con patrón geométrico, haori negro, obi a cuadros y su mordaza de bambú.\n\nDetalles: Excelente acabado, gran nivel de detalle en la expresión de sus ojos rosados, los pliegues de la vestimenta y el cabello, ideal para exhibición en repisas o bordes."
+  },
+  {
+    "id": "ANI-291",
+    "categoria": "Figura",
+    "nombre": "🧾 Figura Muichiro Tokito - Kimetsu no Yaiba",
+    "precio": 38000,
+    "imagen": "productos/berserk-tomo-1/teto6/figura_09.heic.webp, \nproductos/berserk-tomo-1/teto6/figura_10.heic.webp,",
+    "disponibilidad": "AGOTADO",
+    "descripcion": "Descripción: Figura coleccionable de Muichiro Tokito, el Pilar de la Niebla, en pose sentada disfrutando de unos onigiri.\n\nDetalles: Excelente acabado con su uniforme de cazador, su característico cabello largo con puntas turquesas y la caja temática de exhibición.\n\n⚡ Disponibilidad: ¡Entrega inmediata!"
+  },
+  {
+    "id": "ANI-292",
+    "categoria": "Figura",
+    "nombre": "🧾 Figura Tengen Uzui - Kimetsu no Yaiba",
+    "precio": 38000,
+    "imagen": "productos/berserk-tomo-1/teto7/figura_23.webp,",
+    "disponibilidad": "DISPONIBLE",
+    "descripcion": "Descripción: Figura coleccionable de Tengen Uzui, el Pilar del Sonido, en pose sentada con accesorios detallados.\n\nDetalles: Excelente acabado con su diadema de joyas característica, pintura facial y uniforme de cazador.\n\n⚡ Disponibilidad: ¡Entrega inmediata!"
+  },
+  {
+    "id": "ANI-293",
+    "categoria": "Figura",
+    "nombre": "🧾 Figura Giyu Tomioka - Kimetsu no Yaiba",
+    "precio": 38000,
+    "imagen": "productos/berserk-tomo-1/teto6/figura_06.heic.webp, \nproductos/berserk-tomo-1/teto6/figura_07.heic.webp,",
+    "disponibilidad": "DISPONIBLE",
+    "descripcion": "Descripción: Figura coleccionable de Giyu Tomioka, el Pilar del Agua, en pose sentada disfrutando de unos onigiri.\n\nDetalles: Excelente acabado con su uniforme de cazador y su característico haori de dos patrones.\n\n⚡ Disponibilidad: ¡Entrega inmediata!"
+  },
+  {
+    "id": "ANI-294",
+    "categoria": "Figura",
+    "nombre": "🧾 Figura Kanao Tsuyuri - Kimetsu no Yaiba",
+    "precio": 38000,
+    "imagen": "productos/berserk-tomo-1/teto7/figura_25.webp, \nproductos/berserk-tomo-1/teto7/figura_27.webp,",
+    "disponibilidad": "DISPONIBLE",
+    "descripcion": "Descripción: Figura coleccionable de Kanao Tsuyuri en pose sentada sosteniendo un accesorio con una mariposa y unos onigiri.\n\nDetalles: Excelente acabado con su uniforme de cazadores, su capa blanca con lazo rojo y su característico adorno de mariposa en el cabello.\n\n⚡ Disponibilidad: ¡Entrega inmediata!"
+  },
+  {
+    "id": "ANI-295",
+    "categoria": "Figura",
+    "nombre": "🧾 Figura Tanjiro Kamado - Kimetsu no Yaiba",
+    "precio": 38000,
+    "imagen": "productos/berserk-tomo-1/teto6/figura_03.heic.webp, \nproductos/berserk-tomo-1/teto6/figura_05.heic.webp,",
+    "disponibilidad": "DISPONIBLE",
+    "descripcion": "Descripción: Figura coleccionable de Tanjiro Kamado en pose sentada disfrutando de un bocadillo.\n\nDetalles: Excelente acabado con su uniforme de cazador, su haori de patrón ajedrezado verde y negro, y los pendientes de Hanafuda.\n\n⚡ Disponibilidad: ¡Entrega inmediata!"
+  },
+  {
     "id": "ANI-296",
     "categoria": "Figura",
     "nombre": " 🧾 Figura Obanai Iguro - Kimetsu no Yaiba   ",
@@ -398,9 +470,9 @@
   {
     "id": "ANI-299",
     "categoria": "Figura",
-    "nombre": "🧾 Figura Shinobu Kocho (Versión Comiendo Onigiri / Look Up Style) - Demon Slayer: Kimetsu no Yaiba",
+    "nombre": "🧾 Figura Shinobu Kocho (Versión Comiendo Onigiri / Look Up Style) Kimetsu no Yaiba",
     "precio": 38000,
-    "imagen": "productos/berserk-tomo-1/teto4/figura_191.heic.webp,",
+    "imagen": "productos/berserk-tomo-1/teto4/figura_191.heic.webp, \nproductos/berserk-tomo-1/teto7/figura_31.webp,",
     "disponibilidad": "DISPONIBLE",
     "descripcion": "Descripción: Figura coleccionable de Shinobu Kocho, el Pilar del Insecto, en pose sentada disfrutando de un onigiri.\n\nDetalles: Excelente acabado con su uniforme de cazadora, su característico haori con diseño de alas de mariposa y los adornos en su cabello.\n\n⚡ Disponibilidad: ¡Entrega inmediata!"
   },
@@ -484,6 +556,24 @@
     "imagen": "productos/berserk-tomo-1/teto3/figura_55.heic.webp, \nproductos/berserk-tomo-1/teto3/figura_56.heic.webp,",
     "disponibilidad": "DISPONIBLE",
     "descripcion": "Descripción: Lápiz infinito coleccionable de Pochacco con diseño temático y detalles coloridos del querido personaje de Sanrio.\n\nDetalles: Excelente acabado, diseño ergonómico y punta especial sin tinta que permite escribir de forma continua sin necesidad de sacar punta."
+  },
+  {
+    "id": "ANI-310",
+    "categoria": "Figura",
+    "nombre": "🧾 Figura Son Goku (Kaioken / Versión Especial) - Dragon Ball Z",
+    "precio": 140000,
+    "imagen": "productos/berserk-tomo-1/teto5/figura_228.heic.webp, \nproductos/berserk-tomo-1/teto5/figura_229.heic.webp, \nproductos/berserk-tomo-1/teto6/figura_11.heic.webp,",
+    "disponibilidad": "DISPONIBLE",
+    "descripcion": "Descripción: Figura coleccionable articulada de Son Goku con efecto de energía y diseño detallado.\n\nDetalles: Incluye múltiples rostros intercambiables, manos adicionales, esfera del dragón y viene con su caja.\n\n⚡ Disponibilidad: ¡Entrega inmediata!"
+  },
+  {
+    "id": "ANI-311",
+    "categoria": "Figura",
+    "nombre": "🧾 Figura Goku Black Super Saiyan Rosé - Dragon Ball Z",
+    "precio": 140000,
+    "imagen": "productos/berserk-tomo-1/teto6/figura_13.heic.webp, \nproductos/berserk-tomo-1/teto6/figura_14.heic.webp, \nproductos/berserk-tomo-1/teto7/figura_15.webp,",
+    "disponibilidad": "DISPONIBLE",
+    "descripcion": "Descripción: Figura coleccionable articulada de Goku Black en su fase Super Saiyan Rosé sobre una base temática con detalles de esferas del dragón.\n\nDetalles: Incluye múltiples rostros intercambiables, manos adicionales, esfera del dragón y accesorios.\n\n⚡ Disponibilidad: ¡Entrega inmediata!"
   },
   {
     "id": "ANI-312",
@@ -592,5 +682,32 @@
     "imagen": "productos/berserk-tomo-1/teto4/figura_210.heic.webp, \nproductos/berserk-tomo-1/teto4/figura_211.heic.webp",
     "disponibilidad": "DISPONIBLE",
     "descripcion": "Descripción: Figura coleccionable de Okarun en su dinámica pose de ataque y desplazamiento a alta velocidad, vistiendo su uniforme escolar oscuro con detalles de poder y su característica mandíbula maldita.\n\nDetalles: Excelente acabado, gran dinamismo en la escultura del cabello llameante y los pliegues de la ropa, montado sobre una base temática de escombros rocosos."
+  },
+  {
+    "id": "ANI-325",
+    "categoria": "Figura",
+    "nombre": "🧾 Figura Vegeta Super Saiyajin Articulada (Con Accesorios Intercambiables y Esfera del Dragón) - Dragon Ball Z",
+    "precio": 140000,
+    "imagen": "productos/berserk-tomo-1/teto5/figura_225.heic.webp, \nproductos/berserk-tomo-1/teto5/figura_226.heic.webp, \nproductos/berserk-tomo-1/teto5/figura_227.heic.webp,",
+    "disponibilidad": "DISPONIBLE",
+    "descripcion": "Descripción: Figura de acción coleccionable y completamente articulada de Vegeta en su transformación Super Saiyajin, luciendo su clásica armadura Saiyajin blanca y azul de batalla.\n\nDetalles: Excelente acabado, alto rango de articulación e incluye múltiples accesorios intercambiables para personalizar su pose: 3 cabezas adicionales con distintas expresiones, brazos cruzados, varios pares de manos intercambiables (abiertas, en posición de ataque y pulgar arriba) y una Esfera del Dragón translúcida."
+  },
+  {
+    "id": "ANI-326",
+    "categoria": "Accesorios",
+    "nombre": "🧾 Figura Majin Vegeta (Con Luz y Levitación Magnética / Efecto de Energía) - Dragon Ball Z",
+    "precio": 130000,
+    "imagen": "productos/berserk-tomo-1/teto7/figura_16.webp, \nproductos/berserk-tomo-1/teto7/figura_17.webp, \nproductos/berserk-tomo-1/teto7/figura_18.webp,",
+    "disponibilidad": "DISPONIBLE",
+    "descripcion": "Descripción: Figura coleccionable de Majin Vegeta (con la marca \"M\" en la frente y daños de batalla) lanzando un ataque de energía, presentada en su caja original con sistema de luz y esfera de energía en levitación magnética.\n\nDetalles: Excelente acabado con efectos visuales llamativos, base con iluminación integrada e interruptor de inducción para encender la esfera flotante, ideal como pieza central o lámpara decorativa de colección."
+  },
+  {
+    "id": "ANI-327",
+    "categoria": "Figura",
+    "nombre": "🧾 Figura Aldebarán de Tauro (Armadura Dorada) - Saint Seiya",
+    "precio": 25000,
+    "imagen": "productos/berserk-tomo-1/teto7/figura_28.webp, \nproductos/berserk-tomo-1/teto7/figura_29.webp,",
+    "disponibilidad": "DISPONIBLE",
+    "descripcion": "Descripción: Figura coleccionable del Caballero Dorado Aldebarán de Tauro sosteniendo su característico casco con cuernos bajo el brazo, luciendo la imponente Armadura Dorada de Tauro y su capa blanca con interior azul de la clásica serie Saint Seiya (Los Caballeros del Zodíaco).\n\nDetalles: Excelente acabado con pintura metalizada en la armadura, detalles fieles al diseño del anime e incluye base circular azul para exhibición."
   }
 ]
